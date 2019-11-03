@@ -1,9 +1,10 @@
 ---
 title: How to add Draft posts Support to Gatsby blog
 tags: ['gatsby', 'web-dev', 'graphql']
-author: sasivarnan
+author: etamity
 date: 2018-12-16
 featuredImage: ./drafts.jpg
+draft: false
 ---
 
 Ever encountered a situation where you need to skip some unfinished, unpolished posts while deploying your Gatsby blog?

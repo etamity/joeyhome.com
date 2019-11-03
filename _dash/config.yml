@@ -1,0 +1,37 @@
+---
+navs:
+  - name: Content
+    title: true
+  - name: Compose
+    icon: cui-note
+    goto: posts/index.mdx
+  - name: Posts
+    icon: fa fa-list-alt
+    goto: posts/index.mdx
+  - name: Tags
+    icon: fa fa-tags
+    goto: posts/index.mdx
+  - name: Menus
+    icon: fa fa-bars
+    goto: posts/index.mdx
+  - name: Media
+    icon: fa fa-image
+    goto: posts/index.mdx
+  - name: Theme
+    title: true
+  - name: Layout
+    icon: fa fa-dashboard
+  - name: Template
+    icon: fa fa-code
+  - name: Color
+    icon: fa fa-paint-brush
+  - name: Settings
+    title: true
+  - name: General
+    icon: cui-settings
+  - name: Publish
+    title: true
+  - name: Deploy
+    icon: fa fa-cloud-upload
+settings:
+  test: 'hahah'

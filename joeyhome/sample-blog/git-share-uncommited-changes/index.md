@@ -2,8 +2,9 @@
 title: Git - Share Uncommitted Changes without Pushing
 date: 2018-12-29
 tags: ['git']
-author: sasivarnan
+author: etamity
 featuredImage: ./share-doc.jpg
+draft: false
 ---
 
 Git is the most popular version control system used to manage projects with multiple people working on it. 

@@ -2,8 +2,9 @@
 title: What Powers Us
 date: '2018-12-01'
 tags: ['general']
-author: sasivarnan
+author: etamity
 featuredImage: './power-source.jpg'
+draft: false
 ---
 
 An overview of various tools and services that were used for building and hosting this website is provided. It is strongly **recommended** to take a look at it.

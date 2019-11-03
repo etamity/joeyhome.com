@@ -41,6 +41,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       ) {
         edges {
           node {
+            body
             fields {
               slug
             }

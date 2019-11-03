@@ -18,7 +18,6 @@ import logo from '../assets/logo.png';
 class BlogPostTemplate extends React.Component {
   constructor(props) {
     super(props);
-
     this.progressBarRef = React.createRef();
     this.headerRef = React.createRef();
     this.titleRef = React.createRef();
@@ -125,6 +124,7 @@ class BlogPostTemplate extends React.Component {
 
   render() {
     const { data, pageContext, location } = this.props;
+    console.log('data blog', data);
     const { post, previousPost, nextPost } = data;
     const { frontmatter, fields, excerpt } = post;
     const { tags, featuredImage } = frontmatter;

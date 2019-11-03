@@ -9,6 +9,7 @@ import PostList from '../components/PostList';
 import Navigation from '../components/Navigation';
 
 import logo from '../assets/logo.png';
+import CustomHeader from '../customs/CustomHeader';
 
 const Header = ({ siteMetadata, location, featuredImage }) => {
   return (
@@ -55,7 +56,9 @@ class BlogIndex extends React.Component {
           bodyAttributes={{
             class: 'home-template',
           }}
-        />
+        >
+          <CustomHeader />
+        </Helmet>
         <Header
           siteMetadata={this.props.data.site.siteMetadata}
           featuredImage={featuredImage}

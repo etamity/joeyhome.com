@@ -15,15 +15,16 @@ module.exports = {
     },
     config: {
       postsPerPage: 10,
-      disqus: 'etamity'
-    }
+      disqus: 'etamity',
+      scripts: []
+    },
   },
 
   plugins: [
     {
       resolve: 'gatsby-theme-ghost-casper',
       options: {
-        title: 'JoeyHome1'
+        title: 'JoeyHome'
       }
     },
     ...(process.env.NODE_ENV === 'production' ?

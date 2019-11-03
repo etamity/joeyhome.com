@@ -1,0 +1,12 @@
+{
+  "port": 9999,
+  "uiport": 8888,
+  "host": "localhost",
+  "devMode": true,
+  "socket": false,
+  "env": {
+    "CHOKIDAR_USEPOLLING": true,
+    "WEB_NODE_PATH": "src",
+    "SKIP_PREFLIGHT_CHECK": true
+  }
+}
