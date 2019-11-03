@@ -1,0 +1,29 @@
+{
+  "name": "joeyhome",
+  "version": "1.0.1",
+  "description": "Discover the harmony of code and music.",
+  "private": true,
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gatsby",
+    "JoeyHome",
+    "JavaScript"
+  ],
+  "author": "Joey Etamity <etamity@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^2.13.4",
+    "gatsby-plugin-google-analytics": "^2.1.1",
+    "gatsby-plugin-guess-js": "^1.1.0",
+    "gatsby-plugin-manifest": "^2.2.1",
+    "gatsby-plugin-offline": "^2.2.1",
+    "gatsby-theme-ghost-casper": "*",
+    "prism-themes": "^1.1.0",
+    "prismjs": "^1.16.0"
+  }
+}

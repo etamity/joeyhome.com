@@ -1,0 +1,19 @@
+{
+  "name": "dashpad-static-cms",
+  "private": true,
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "develop:joeyhome": "yarn workspace joeyhome develop",
+    "clean:joeyhome": "yarn workspace joeyhome clean",
+    "build:joeyhome": "yarn workspace joeyhome build",
+    "develop:casper": "yarn workspace gatsby-theme-ghost-casper develop",
+    "build:casper": "yarn workspace gatsby-theme-ghost-casper build",
+    "clean:casper": "yarn workspace gatsby-theme-ghost-casper clean"
+  },
+  "workspaces": [
+    "gatsby-theme-ghost-casper",
+    "joeyhome"
+  ]
+}
