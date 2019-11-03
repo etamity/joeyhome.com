@@ -124,7 +124,7 @@ class BlogPostTemplate extends React.Component {
   render() {
     const { data, pageContext, location } = this.props;
     const { post, previousPost, nextPost } = data;
-    const { frontmatter, fields } = post;
+    const { frontmatter, fields, excerpt } = post;
     const { tags, featuredImage } = frontmatter;
 
     const siteTitle = get(this.props, 'data.site.siteMetadata.title'),
@@ -134,6 +134,7 @@ class BlogPostTemplate extends React.Component {
       siteTwitter = get(this.props, 'data.site.siteMetadata.social.twitter'),
       siteDescription = post.excerpt,
       postTitle = frontmatter.title,
+      postExcerpt = excerpt,
       slug = fields.slug;
 
     const { primaryTag } = pageContext,
@@ -169,7 +170,12 @@ class BlogPostTemplate extends React.Component {
           title={titleToShow}
         />
 
-        <header className='site-header outer'>
+        <header
+          className='site-header outer'
+          style={{
+            background: '#2b2b2b',
+          }}
+        >
           <div className='inner'>
             <Navigation location={location} />
           </div>
@@ -207,6 +213,12 @@ class BlogPostTemplate extends React.Component {
                     __html: this.getPageTitle(postTitle),
                   }}
                   ref={this.titleRef}
+                />
+                <p
+                  className='post-full-custom-excerpt'
+                  dangerouslySetInnerHTML={{
+                    __html: postExcerpt,
+                  }}
                 />
               </header>
 
@@ -248,10 +260,10 @@ class BlogPostTemplate extends React.Component {
 
         <div className='floating-header' ref={this.headerRef}>
           <div className='floating-header-logo'>
-            <Link to={siteUrl}>
+            <a href={siteUrl}>
               <img src={logo} alt={`${siteTitle} logo`} />
               <span>{siteTitle}</span>
-            </Link>
+            </a>
           </div>
           <span className='floating-header-divider'>&mdash;</span>
           <div className='floating-header-title'>{postTitle}</div>

@@ -26,7 +26,9 @@ const AuthorTemplate = ({ pageContext, data, location }) => {
           class: 'author-template',
         }}
       />
-      <header className='site-header outer'>
+      <header className='site-header outer' style={{
+        backgroundImage: `url(${author.coverImage})`
+      }}>
         {/* // style='background-image: url({{feature_image}}){{else}}no-cover{{/if}}'> */}
         <div className='inner'>
           <Navigation location={location} navItems={navItems} />
@@ -40,9 +42,6 @@ const AuthorTemplate = ({ pageContext, data, location }) => {
             )}
             <h1 className='site-title'>{author.name}</h1>
             {author.bio && <h2 className='author-bio'>{author.bio}</h2>}
-            {/* <h2 className='site-description'>
-              {tag.description || `A collection of ${totalCount} post${totalCount > 1 ? 's' : ''}`}
-            </h2> */}
             <div className='author-meta'>
               {author.location && (
                 <div className='author-location'>

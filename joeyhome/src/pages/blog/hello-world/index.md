@@ -2,7 +2,7 @@
 title: Hello World
 date: '2018-11-24'
 tags: [ 'general' ]
-author: sasivarnan
+author: etamity
 featuredImage: ./welcome.jpg
 draft: false
 ---

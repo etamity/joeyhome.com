@@ -1,4 +1,3 @@
-
 .site-nav-logo {
   padding: 0px;
 }
@@ -8,38 +7,39 @@
 }
 
 .post-full-content pre {
-  overflow-x: auto;
-  margin: 1.5em 0 3em;
-  padding: 20px;
   max-width: 100%;
-  border: color(var(--darkgrey) l(-10%)) 1px solid;
+  border: none;
   color: var(--whitegrey);
   font-size: 1.4rem;
   line-height: 1.5em;
-  background: color(var(--darkgrey) l(-3%));
-  border-radius: 5px;
 }
 
 .post-full-content pre code {
-  padding: 0;
   font-size: inherit;
   line-height: inherit;
   background: transparent;
-} 
-
-.post-full-content a {
+  margin: 2em 0;
+  padding: 20px;
   box-shadow: none;
+  background: black;
+  color: white;
 }
 
-.post-full-content pre {
-  padding: 1px;
-  overflow-x: visible;
-  margin-bottom: 2em;
+.floating-header-logo {
+  padding: 10px;
+}
+.floating-header {
+  background: #15171a;
 }
 
-.floating-header-logo { 
-    background: #ccc;  
-    padding: 10px;
+.floating-header-logo a,
+.floating-header-share-label,
+.floating-header-title {
+  color: white;
+}
+
+.floating-header-title {
+  font-weight: normal;
 }
 
 .site-logo {

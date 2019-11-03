@@ -5,7 +5,7 @@ module.exports = {
   siteMetadata: {
     title: 'JoeyHome',
     author: 'Joey Etamity',
-    description: 'Discover the harmony of code and music. 🛸',
+    description: `Discover the harmony of code 💻 and music 🎹.`,
     siteUrl: 'https://joeyhome.com',
     social: {
       twitter: 'g33kscr33d',

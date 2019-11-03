@@ -174,7 +174,7 @@ body {
 .site-description {
     z-index: 10;
     margin: 0;
-    padding: 5px 0;
+    padding: 20px 0;
     font-size: 2.2rem;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -202,7 +202,8 @@ body {
     align-items: flex-start;
     overflow-y: hidden;
     height: 40px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 .site-nav-left {
@@ -264,16 +265,34 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .nav li a {
+    position: relative;
     display: block;
-    margin: 0;
-    padding: 10px 12px;
+    padding: 12px;
     color: #fff;
-    opacity: 0.8;
+    opacity: .8;
+    transition: opacity .35s ease-in-out;
 }
 
 .nav li a:hover {
     text-decoration: none;
     opacity: 1;
+}
+
+.nav li a:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: 8px;
+    left: 12px;
+    height: 1px;
+    background: #fff;
+    opacity: .25;
+    transition: all .35s ease-in-out;
+}
+
+.nav li a:hover:before {
+    right: 12px;
+    opacity: .5;
 }
 
 .site-nav-right {
@@ -453,6 +472,8 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 }
 
 .post-card-excerpt {
+    max-width: 56em;
+    color: #738a94;
     font-family: Georgia, serif;
 }
 
@@ -928,7 +949,7 @@ Usage (In Ghost editor):
     word-break: break-all;
 }
 
-/* .post-full-content pre {
+.post-full-content pre {
     overflow-x: auto;
     margin: 1.5em 0 3em;
     padding: 20px;
@@ -946,7 +967,16 @@ Usage (In Ghost editor):
     font-size: inherit;
     line-height: inherit;
     background: transparent;
-} */
+}
+
+.post-full-custom-excerpt {
+    margin: 20px 0 0;
+    color: #738a94;
+    font-family: Georgia,serif;
+    font-size: 2.3rem;
+    line-height: 1.4em;
+    font-weight: 300;
+}
 
 .post-full-content pre code :not(span) {
     color: inherit;

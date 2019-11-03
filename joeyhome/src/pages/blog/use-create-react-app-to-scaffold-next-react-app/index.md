@@ -2,7 +2,7 @@
 title: Why you should use create-react-app to Scaffold your Next React App?
 date: 2018-12-12
 tags: ['react', 'web-dev', 'webpack']
-author: sasivarnan
+author: etamity
 featuredImage: ./react-code-macbook.jpg
 ---
 
