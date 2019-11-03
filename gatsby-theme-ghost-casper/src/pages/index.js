@@ -38,7 +38,7 @@ class BlogIndex extends React.Component {
         'props.data.site.siteMetadata.config.postsPerPage'
       ),
       siteDescription = get(this, 'props.data.site.siteMetadata.description'),
-      posts = get(this, 'props.data.allMarkdownRemark.edges'),
+      posts = get(this, 'props.data.allMdx.edges'),
       featuredImage = get(
         this,
         'props.data.featuredImage.edges[0].node.childImageSharp'
@@ -98,7 +98,7 @@ export const pageQuery = graphql`
       }
     }
 
-    allMarkdownRemark(
+    allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { draft: { ne: true } } }
     ) {

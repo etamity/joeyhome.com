@@ -1,7 +1,7 @@
 import { graphql } from 'gatsby';
 
 export const postCardFragment = graphql`
-  fragment PostCardFragment on MarkdownRemark {
+  fragment PostCardFragment on Mdx {
     excerpt
     fields {
       slug

@@ -1,10 +1,9 @@
 ---
-layout: post
 title: "Learn coding from making games"
-author: Etamity
+author: etamity
 tags: ["Projects", "Tech"]
-image: ./cover.png
-date: "2018-04-05T11:11:55.000Z"
+featuredImage: ./cover.png
+date: '2018-11-24'
 draft: false
 ---
 
@@ -22,7 +21,7 @@ Make Game is an experimental project let people make games and learn coding with
 
 ##### Prerequisites
 
-Install [polymer-cli](https://github.com/Polymer/polymer-cli):
+Install [polymer-cli](https://github.com/Polymer/polymer-cli)
 
     npm install -g polymer-cli
 

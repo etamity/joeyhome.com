@@ -17,7 +17,6 @@ class Template extends React.Component {
 
   render() {
     const { location, children, hideFooter } = this.props;
-
     return (
       <div className='site-wrapper'>
         {/* {body_class} {block ' special_body_class' */}

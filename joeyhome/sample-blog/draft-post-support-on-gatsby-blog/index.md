@@ -22,15 +22,15 @@ In this article, I am gonna walk us through a simpler way to add support for dra
 
 Let's enhance our blog powered by `markdown` files to skip all the posts which are marked as `draft` in it's `frontmatter` while building the site.
 
-First of all, pick your first published post and add `draft: false`. This will make gatsby to create the `graphQL` schema for `markdownRemark` with `draft` field in it, which is needed in while querying.
+First of all, pick your first published post and add `draft: false`. This will make gatsby to create the `graphQL` schema for `mdx` with `draft` field in it, which is needed in while querying.
 
 > **Note:** Gatsby infers the schema during the initial load of the development server. Hence you need to restart the gatsby development server in order to add `drafts` property to the gatsby schema.
 
-Add the following filter in every page where you are querying `allMarkdownRemark`.
+Add the following filter in every page where you are querying `allMdx`.
 
 ```diff
     ...
-    allMarkdownRemark(
+    allMdx(
 -      sort: { fields: [frontmatter___date], order: DESC }
 +      sort: { fields: [frontmatter___date], order: DESC },
 +      filter: {frontmatter: {draft: {ne: true}}}
@@ -45,8 +45,8 @@ Next, add the following change in the graphql query of `createPages` method in `
 resolve(
   graphql(
     `{
--      allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, limit: 1000) {
-+      allMarkdownRemark(
+-      allMdx(sort: {fields: [frontmatter___date], order: DESC}, limit: 1000) {
++      allMdx(
 +       sort: {fields: [frontmatter___date], order: DESC},
 +         ${
 +           process.env.NODE_ENV === 'production' ?
@@ -71,7 +71,7 @@ Now in `gatsby-config.js` file, make the following change to skip draft posts wh
 +         {
 +           query: `
 +           {
-+             allMarkdownRemark(
++             allMdx(
 +               limit: 1000,
 +               sort: {order: DESC, fields: [frontmatter___date]},
 +               filter: {frontmatter: {draft: {ne: true}}}

@@ -9,7 +9,7 @@ import Navigation from '../components/Navigation';
 
 const TagTemplate = ({ pageContext, data, location }) => {
   const { tag } = pageContext;
-  const { edges, totalCount } = data.allMarkdownRemark;
+  const { edges, totalCount } = data.allMdx;
   const { featuredImage } = data;
   const { siteMetadata } = data.site;
   const { title } = siteMetadata;
@@ -61,7 +61,7 @@ export const pageQuery = graphql`
       }
     }
 
-    allMarkdownRemark(
+    allMdx(
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { tags: { in: [$tag] }, draft: { ne: true } } }
     ) {

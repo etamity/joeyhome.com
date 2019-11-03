@@ -23,7 +23,7 @@ module.exports = {
     {
       resolve: 'gatsby-theme-ghost-casper',
       options: {
-        title: 'JoeyHome'
+        title: 'JoeyHome1'
       }
     },
     ...(process.env.NODE_ENV === 'production' ?

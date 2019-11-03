@@ -119,7 +119,7 @@ export const pageQuery = graphql`
         }
       }
     }
-    posts: allMarkdownRemark(
+    posts: allMdx(
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { draft: { ne: true } } }
     ) {

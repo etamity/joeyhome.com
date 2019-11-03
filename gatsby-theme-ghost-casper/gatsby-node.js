@@ -30,7 +30,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const result = await graphql(`
     {
-      allMarkdownRemark(
+      allMdx(
         sort: { fields: [frontmatter___date], order: DESC }
         ${
           process.env.NODE_ENV === 'production'
@@ -77,7 +77,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   }
 
   // Create blog posts pages.
-  const posts = result.data.allMarkdownRemark.edges;
+  const posts = result.data.allMdx.edges;
   const authors = result.data.authors.edges;
   let allTags = [];
 
@@ -131,7 +131,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
 
-  if (node.internal.type === `MarkdownRemark`) {
+  if (node.internal.type === `Mdx`) {
     const value = createFilePath({ node, getNode });
     createNodeField({
       name: `slug`,

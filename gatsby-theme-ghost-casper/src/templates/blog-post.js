@@ -5,6 +5,8 @@ import { DiscussionEmbed } from 'disqus-react';
 import Image from 'gatsby-image';
 import get from 'lodash/get';
 
+import { MDXRenderer } from 'gatsby-plugin-mdx';
+
 import Author from '../components/Author';
 import Navigation from '../components/Navigation';
 import Layout from '../components/Layout';
@@ -229,10 +231,9 @@ class BlogPostTemplate extends React.Component {
                 />
               )}
 
-              <section
-                className='post-full-content'
-                dangerouslySetInnerHTML={{ __html: post.html }}
-              />
+              <section className='post-full-content'>
+                <MDXRenderer>{post.body}</MDXRenderer>
+              </section>
 
               <Author author={frontmatter.author} />
 
@@ -260,10 +261,10 @@ class BlogPostTemplate extends React.Component {
 
         <div className='floating-header' ref={this.headerRef}>
           <div className='floating-header-logo'>
-            <a href={siteUrl}>
+            <Link to="/">
               <img src={logo} alt={`${siteTitle} logo`} />
               <span>{siteTitle}</span>
-            </a>
+            </Link>
           </div>
           <span className='floating-header-divider'>&mdash;</span>
           <div className='floating-header-title'>{postTitle}</div>
@@ -314,7 +315,7 @@ export const pageQuery = graphql`
       }
     }
 
-    relatedPosts: allMarkdownRemark(
+    relatedPosts: allMdx(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 3
       filter: {
@@ -335,18 +336,18 @@ export const pageQuery = graphql`
       }
     }
 
-    previousPost: markdownRemark(fields: { slug: { eq: $previous } }) {
+    previousPost: mdx(fields: { slug: { eq: $previous } }) {
       ...PostCardFragment
     }
 
-    nextPost: markdownRemark(fields: { slug: { eq: $next } }) {
+    nextPost: mdx(fields: { slug: { eq: $next } }) {
       ...PostCardFragment
     }
 
-    post: markdownRemark(fields: { slug: { eq: $slug } }) {
+    post: mdx(fields: { slug: { eq: $slug } }) {
       id
       excerpt
-      html
+      body
       frontmatter {
         title
         date(formatString: "DD MMMM YYYY")

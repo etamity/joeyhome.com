@@ -38,7 +38,7 @@ const NotFoundPage = ({ location }) => (
       <StaticQuery
         query={graphql`
           {
-            posts: allMarkdownRemark(
+            posts: allMdx(
               sort: { fields: [frontmatter___date], order: DESC }
               filter: { frontmatter: { draft: { ne: true } } }
               limit: 3

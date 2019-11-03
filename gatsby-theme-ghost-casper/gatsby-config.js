@@ -19,8 +19,8 @@ module.exports = themeOptions => ({
   },
   pathPrefix: themeOptions.pathPrefix || '',
   mapping: {
-    // "MarkdownRemark.frontmatter.tags": `TagsYaml`,
-    'MarkdownRemark.frontmatter.author': 'AuthorsYaml',
+    // "Mdx.frontmatter.tags": `TagsYaml`,
+    'Mdx.frontmatter.author': 'AuthorsYaml',
   },
   plugins: [
     {
@@ -72,6 +72,7 @@ module.exports = themeOptions => ({
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
         ],
+        plugins: ['gatsby-remark-images'],
       },
     },
     {
@@ -115,7 +116,7 @@ module.exports = themeOptions => ({
           {
             query: `
           {
-            allMarkdownRemark(
+            allMdx(
               limit: 1000,
               sort: {order: DESC, fields: [frontmatter___date]},
               filter: {frontmatter: {draft: {ne: true}}}
