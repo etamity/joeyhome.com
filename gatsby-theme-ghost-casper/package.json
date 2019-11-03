@@ -7,11 +7,14 @@
     "url": "https://github.com/sasivarnan/gatsby-theme-ghost-casper/issues"
   },
   "dependencies": {
+    "autoprefixer": "^9.7.1",
+    "cssnano": "^4.1.10",
     "disqus-react": "^1.0.6",
     "gatsby": "^2.13.4",
     "gatsby-image": "^2.2.4",
     "gatsby-plugin-feed": "^2.3.2",
     "gatsby-plugin-page-creator": "^2.1.2",
+    "gatsby-plugin-postcss": "^2.1.13",
     "gatsby-plugin-react-helmet": "^3.1.0",
     "gatsby-plugin-sharp": "^2.2.2",
     "gatsby-plugin-sitemap": "^2.2.1",
@@ -26,16 +29,14 @@
     "gatsby-transformer-sharp": "^2.2.1",
     "gatsby-transformer-yaml": "^2.2.0",
     "lodash": "^4.17.11",
+    "postcss-color-mod-function": "^3.0.3",
+    "postcss-custom-properties": "^9.0.2",
+    "postcss-easy-import": "^3.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "husky": "^3.0.0",
-    "lint-staged": "^9.0.2",
-    "prettier": "^1.18.2",
-    "rimraf": "2.6.3",
     "babel-eslint": "^10.0.3",
     "eslint": "6.1.0",
     "eslint-config-xo-react": "0.20.0",
@@ -43,7 +44,12 @@
     "eslint-config-xo-typescript": "0.15.0",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-react": "7.14.3",
-    "eslint-plugin-react-hooks": "1.6.1"
+    "eslint-plugin-react-hooks": "1.6.1",
+    "gh-pages": "^2.0.1",
+    "husky": "^3.0.0",
+    "lint-staged": "^9.0.2",
+    "prettier": "^1.18.2",
+    "rimraf": "2.6.3"
   },
   "homepage": "https://github.com/sasivarnan/gatsby-theme-ghost-casper#readme",
   "keywords": [

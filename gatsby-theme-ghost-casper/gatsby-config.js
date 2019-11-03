@@ -10,32 +10,44 @@ module.exports = themeOptions => ({
       twitter: '',
       facebook: '',
       instagram: '',
-      github: ''
+      github: '',
     },
     config: {
       postsPerPage: 10,
-      disqus: ''
-    }
+      disqus: '',
+    },
   },
   pathPrefix: themeOptions.pathPrefix || '',
   mapping: {
     // "MarkdownRemark.frontmatter.tags": `TagsYaml`,
-    'MarkdownRemark.frontmatter.author': 'AuthorsYaml'
+    'MarkdownRemark.frontmatter.author': 'AuthorsYaml',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [
+          require(`postcss-easy-import`),
+          require(`postcss-custom-properties`),
+          require(`postcss-color-mod-function`),
+          require('autoprefixer'),
+          require('cssnano')
+        ],
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: path.resolve('src/pages'),
-        name: 'pages'
-      }
+        name: 'pages',
+      },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: path.resolve('src/assets'),
-        name: 'assets'
-      }
+        name: 'assets',
+      },
     },
     {
       resolve: 'gatsby-transformer-remark',
@@ -46,27 +58,27 @@ module.exports = themeOptions => ({
             options: {
               showCaptions: true,
               maxWidth: 840,
-              quality: 80
-            }
+              quality: 80,
+            },
           },
           {
             resolve: 'gatsby-remark-responsive-iframe',
             options: {
-              wrapperStyle: 'margin-bottom: 1.0725rem'
-            }
+              wrapperStyle: 'margin-bottom: 1.0725rem',
+            },
           },
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants'
-        ]
-      }
+          'gatsby-remark-smartypants',
+        ],
+      },
     },
     'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: path.resolve('./src/data/')
-      }
+        path: path.resolve('./src/data/'),
+      },
     },
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
@@ -100,23 +112,23 @@ module.exports = themeOptions => ({
           }            
           `,
             title: themeOptions.title,
-            output: 'rss.xml'
-          }
-        ]
-      }
+            output: 'rss.xml',
+          },
+        ],
+      },
     },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-page-creator',
       options: {
-        path: `${__dirname}/src/pages`
-      }
+        path: `${__dirname}/src/pages`,
+      },
     },
     {
       resolve: 'gatsby-plugin-page-creator',
       options: {
-        path: `${__dirname}/src/assets`
-      }
-    }
-  ]
+        path: `${__dirname}/src/assets`,
+      },
+    },
+  ],
 });

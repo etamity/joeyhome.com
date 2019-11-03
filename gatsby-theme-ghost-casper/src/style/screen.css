@@ -1,29 +1,26 @@
 /* Table of Contents
 /* ------------------------------------------------------------
-
 This is a development CSS file which is built to a minified
 production stylesheet in assets/built/screen.css
-
 1.  Global Styles
 2.  Layout
 3.  Special Templates
 4.  Site Header
+  4.1 Home header
+  4.2 Archive header
 5.  Site Navigation
 6.  Post Feed
 7.  Single Post
-  7.1. Subscribe Form
-  7.2. Post Footer
-     7.2.1 Single Author Byline
-     7.2.2 Multiple Author Byline
+  7.1. Post Byline
+  7.2. Members Subscribe Form
   7.3. Comments
   7.4. Related Posts
-  7.5. Floating Header
-  7.6. Koenig Styles
+  7.5. Koenig Styles
 8.  Author Template
 9.  Error Template
 10. Subscribe Overlay
 11. Site Footer
-
+12. Dark Mode
 */
 
 
@@ -33,6 +30,29 @@ production stylesheet in assets/built/screen.css
 
 body {
     background: #f3f7fa;
+}
+
+.img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.hidden {
+    visibility: hidden;
+    position: absolute;
+    text-indent: -9999px;
+}
+
+/* 1. Global - Set up the things
+/* ---------------------------------------------------------- */
+@import "global.css";
+
+body {
+    background: #fff;
 }
 
 .img {
@@ -68,7 +88,7 @@ body {
 /* Full width page blocks */
 .outer {
     position: relative;
-    padding: 0 4vw;
+    padding: 0 5vw;
 }
 
 /* Centered content container blocks */
@@ -79,13 +99,11 @@ body {
 }
 
 /* Usage:
-
 <div class="outer">
     <div class="inner">
         Centered content
     </div>
 </div>
-
 */
 
 /* 3. Special Template Styles
@@ -95,14 +113,16 @@ body {
     .home-template .post-feed,
     .tag-template .post-feed,
     .author-template .post-feed {
-        margin-top: -70px;
-        padding-top: 0;
+        padding: 40px 0 5vw;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
     }
+
     .home-template .site-nav {
         position: relative;
-        top: -70px;
     }
 }
+
 
 
 /* 4. Site Header
@@ -113,7 +133,7 @@ body {
     padding-top: 12px;
     padding-bottom: 12px;
     color: #fff;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    background: color-mod(var(--darkgrey) l(-5%)) no-repeat center center;
     background-size: cover;
 }
 
@@ -489,7 +509,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: block;
     width: 100%;
     height: 100%;
-    background: color(var(--lightgrey) l(+10%));
+    background: color-mod(var(--lightgrey) l(+10%));
     border-radius: 100%;
 
     object-fit: cover;
@@ -722,7 +742,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 
 .post-full-title {
     margin: 0;
-    color: color(var(--darkgrey) l(-5%));
+    color: color-mod(var(--darkgrey) l(-5%));
 }
 
 .date-divider {
@@ -856,7 +876,7 @@ make sure this only happens on large viewports / desktop-ish devices.
 
 .post-full-content strong,
 .post-full-content em {
-    color: color(var(--darkgrey) l(-5%));
+    color: color-mod(var(--darkgrey) l(-5%));
 }
 
 .post-full-content small {
@@ -954,11 +974,11 @@ Usage (In Ghost editor):
     margin: 1.5em 0 3em;
     padding: 20px;
     max-width: 100%;
-    border: color(var(--darkgrey) l(-10%)) 1px solid;
+    border: color-mod(var(--darkgrey) l(-10%)) 1px solid;
     color: var(--whitegrey);
     font-size: 1.4rem;
     line-height: 1.5em;
-    background: color(var(--darkgrey) l(-3%));
+    background: color-mod(var(--darkgrey) l(-3%));
     border-radius: 5px;
 }
 
@@ -999,7 +1019,7 @@ Usage (In Ghost editor):
     margin-left: -10px;
     width: 1px;
     height: 30px;
-    background: color(var(--lightgrey) l(+10%));
+    background: color-mod(var(--lightgrey) l(+10%));
     box-shadow: #fff 0 0 0 5px;
     transform: rotate(45deg);
 }
@@ -1010,7 +1030,7 @@ Usage (In Ghost editor):
 .post-full-content h4,
 .post-full-content h5,
 .post-full-content h6 {
-    color: color(var(--darkgrey) l(-5%));
+    color: color-mod(var(--darkgrey) l(-5%));
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
@@ -1178,13 +1198,13 @@ Usage (In Ghost editor):
     letter-spacing: 0.2px;
     text-align: left;
     text-transform: uppercase;
-    background-color: color(var(--whitegrey) l(+4%));
+    background-color: color-mod(var(--whitegrey) l(+4%));
 }
 
 .post-full-content table th,
 .post-full-content table td {
     padding: 6px 12px;
-    border: color(var(--whitegrey) l(-1%) s(-5%)) 1px solid;
+    border: color-mod(var(--whitegrey) l(-1%) s(-5%)) 1px solid;
 }
 
 
@@ -1194,9 +1214,9 @@ Usage (In Ghost editor):
 .subscribe-form {
     margin: 1.5em 0;
     padding: 6.5vw 7vw 7vw;
-    border: color(var(--whitegrey) l(+2%)) 1px solid;
+    border: color-mod(var(--whitegrey) l(+2%)) 1px solid;
     text-align: center;
-    background: color(var(--whitegrey) l(+4%));
+    background: color-mod(var(--whitegrey) l(+4%));
     border-radius: 7px;
 }
 
@@ -1233,7 +1253,7 @@ Usage (In Ghost editor):
     display: block;
     padding: 10px;
     width: 100%;
-    border: color(var(--lightgrey) l(+7%)) 1px solid;
+    border: color-mod(var(--lightgrey) l(+7%)) 1px solid;
     color: var(--midgrey);
     font-size: 1.8rem;
     line-height: 1em;
@@ -1247,7 +1267,7 @@ Usage (In Ghost editor):
 
 .subscribe-email:focus {
     outline: 0;
-    border-color: color(var(--lightgrey) l(-2%));
+    border-color: color-mod(var(--lightgrey) l(-2%));
 }
 
 .subscribe-form button {
@@ -1263,10 +1283,10 @@ Usage (In Ghost editor):
     text-align: center;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
     background: linear-gradient(
-    color(var(--blue) whiteness(+7%)),
-    color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
-    color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
-    color(var(--blue) lightness(-4%) saturation(-10%))
+    color-mod(var(--blue) whiteness(+7%)),
+    color-mod(var(--blue) lightness(-7%) saturation(-10%)) 60%,
+    color-mod(var(--blue) lightness(-7%) saturation(-10%)) 90%,
+    color-mod(var(--blue) lightness(-4%) saturation(-10%))
     );
     border-radius: 5px;
     box-shadow: 0 0 0 1px inset rgba(0,0,0,0.14);
@@ -1276,7 +1296,7 @@ Usage (In Ghost editor):
 
 .subscribe-form button:active,
 .subscribe-form button:focus {
-    background: color(var(--blue) lightness(-9%) saturation(-10%));
+    background: color-mod(var(--blue) lightness(-9%) saturation(-10%));
 }
 
 @media (max-width: 650px) {
@@ -1357,7 +1377,7 @@ Usage (In Ghost editor):
 .author-card-button {
     display: block;
     padding: 9px 16px;
-    border: color(var(--midgrey) l(+20%)) 1px solid;
+    border: color-mod(var(--midgrey) l(+20%)) 1px solid;
     color: var(--midgrey);
     font-size: 1.2rem;
     line-height: 1;
@@ -1382,7 +1402,7 @@ Usage (In Ghost editor):
     align-items: center;
     margin-top: 20px;
     padding-top: 40px;
-    border-top: color(var(--lightgrey) l(+10%)) 1px solid;
+    border-top: color-mod(var(--lightgrey) l(+10%)) 1px solid;
 }
 
 .post-full-authors-content {
@@ -1400,7 +1420,7 @@ Usage (In Ghost editor):
 
 .post-full-authors-content a {
     display: inline-block;
-    color: color(var(--darkgrey) l(+20%));
+    color: color-mod(var(--darkgrey) l(+20%));
     font-size: 1.4rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -1864,17 +1884,10 @@ Usage (In Ghost editor):
 
 /* 7.6. Koenig Styles
 /* ---------------------------------------------------------- */
-
 .post-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 920px;
-}
-
-.post-template .post-content > p:first-child {
-    font-size: 1.25em;
-    line-height: 1.5em;
 }
 
 .post-full-content .kg-image {
@@ -1895,7 +1908,14 @@ Usage (In Ghost editor):
 }
 
 .post-full-content figure {
-    margin: 1.5em 0 3em;
+    margin: 0.8em 0 2.3em;
+}
+
+.post-full-content h1 + figure,
+.post-full-content h2 + figure,
+.post-full-content h3 + figure,
+.post-full-content h4 + figure {
+    margin-top: 2em;
 }
 
 .post-full-content figure img {
@@ -1904,9 +1924,11 @@ Usage (In Ghost editor):
 
 .post-full-content figcaption {
     margin: 1.0em 0 0;
-    font-size: 80%;
-    line-height: 1.6em;
-    text-align: center;
+    color: color-mod(var(--midgrey) l(-10%));
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 75%;
+    line-height: 1.5em;
+    text-align: center;;
 }
 
 .kg-width-full figcaption {
@@ -1917,7 +1939,7 @@ Usage (In Ghost editor):
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 100%;
+    width: 100%;
 }
 
 .kg-embed-card .fluid-width-video-wrapper {
@@ -1964,6 +1986,180 @@ Usage (In Ghost editor):
 .kg-image-card.kg-width-wide + .kg-gallery-card,
 .kg-image-card.kg-width-wide + .kg-image-card.kg-width-wide {
     margin: -2.25em 0 3em;
+}
+
+/* keep existing <pre> styles for code cards with captions */
+.kg-code-card {
+    width: 100%;
+}
+
+.kg-code-card pre {
+    margin: 0;
+}
+
+.kg-bookmark-card {
+    width: 100%;
+    background: var(--white);
+}
+
+.kg-card + .kg-bookmark-card {
+    margin-top: 0;
+}
+
+.post-full-content .kg-bookmark-container {
+    display: flex;
+    min-height: 148px;
+    color: var(--darkgrey);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.09);
+}
+
+.post-full-content .kg-bookmark-container:hover {
+    color: var(--darkgrey);
+    text-decoration: none;
+    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.09);
+}
+
+.kg-bookmark-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.kg-bookmark-title {
+    color: color-mod(var(--midgrey) l(-30%));
+    font-size: 1.6rem;
+    line-height: 1.5em;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+}
+
+.post-full-content .kg-bookmark-container:hover .kg-bookmark-title {
+    color: var(--blue);
+}
+
+.kg-bookmark-description {
+    display: -webkit-box;
+    overflow-y: hidden;
+    margin-top: 12px;
+    max-height: 48px;
+    color: color-mod(var(--midgrey) l(-10%));
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    font-weight: 400;
+
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.kg-bookmark-thumbnail {
+    position: relative;
+    min-width: 33%;
+    max-height: 100%;
+}
+
+.kg-bookmark-thumbnail img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 3px 3px 0;
+
+    object-fit: cover;
+}
+
+.kg-bookmark-metadata {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 14px;
+    color: color-mod(var(--midgrey) l(-10%));
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.post-full-content .kg-bookmark-icon {
+    margin-right: 8px;
+    width: 22px;
+    height: 22px;
+}
+
+.kg-bookmark-author {
+    line-height: 1.5em;
+}
+
+.kg-bookmark-author:after {
+    content: "•";
+    margin: 0 6px;
+}
+
+.kg-bookmark-publisher {
+    overflow: hidden;
+    max-width: 240px;
+    line-height: 1.5em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media (max-width: 800px) {
+    .post-full-content figure {
+        margin: 0.2em 0 1.3em;
+    }
+
+    .post-full-content h1 + figure,
+    .post-full-content h2 + figure,
+    .post-full-content h3 + figure,
+    .post-full-content h4 + figure {
+        margin-top: 0.9em;
+    }
+}
+
+@media (max-width: 500px) {
+    .post-full-content .kg-width-wide,
+    .post-full-content .kg-width-full {
+        margin-right: -5vw;
+        margin-left: -5vw;
+    }
+
+    .post-full-content figcaption {
+        margin-bottom: 0.4em;
+    }
+
+    .post-full-content .kg-bookmark-container {
+        flex-direction: column;
+    }
+
+    .kg-bookmark-title,
+    .kg-bookmark-description,
+    .kg-bookmark-metadata {
+        font-size: 1.4rem;
+        line-height: 1.5em;
+    }
+
+    .post-full-content .kg-bookmark-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .kg-bookmark-thumbnail {
+        order: 1;
+        min-height: 160px;
+        width: 100%;
+    }
+
+    .kg-bookmark-thumbnail img {
+        border-radius: 3px 3px 0 0;
+    }
+
+    .kg-bookmark-content {
+        order: 2;
+    }
 }
 
 /* 8. Author Template
@@ -2174,7 +2370,7 @@ Usage (In Ghost editor):
 
 .subscribe-email:focus {
     outline: 0;
-    border-color: color(var(--lightgrey) l(-2%));
+    border-color: color-mod(var(--lightgrey) l(-2%));
 }
 
 .subscribe-overlay button {
@@ -2190,10 +2386,10 @@ Usage (In Ghost editor):
     text-align: center;
     text-shadow: 0 -1px 0 rgba(0,0,0,0.1);
     background: linear-gradient(
-    color(var(--blue) whiteness(+7%)),
-    color(var(--blue) lightness(-7%) saturation(-10%)) 60%,
-    color(var(--blue) lightness(-7%) saturation(-10%)) 90%,
-    color(var(--blue) lightness(-4%) saturation(-10%))
+    color-mod(var(--blue) whiteness(+7%)),
+    color-mod(var(--blue) lightness(-7%) saturation(-10%)) 60%,
+    color-mod(var(--blue) lightness(-7%) saturation(-10%)) 90%,
+    color-mod(var(--blue) lightness(-4%) saturation(-10%))
     );
     border-radius: 8px;
     box-shadow: 0 0 0 1px inset rgba(0,0,0,0.14);
@@ -2203,7 +2399,7 @@ Usage (In Ghost editor):
 
 .subscribe-overlay button:active,
 .subscribe-overlay button:focus {
-    background: color(var(--blue) lightness(-9%) saturation(-10%));
+    background: color-mod(var(--blue) lightness(-9%) saturation(-10%));
 }
 
 .subscribe-overlay-close {
@@ -2245,7 +2441,6 @@ Usage (In Ghost editor):
     cursor: default;
 }
 
-
 /* 11. Site Footer
 /* ---------------------------------------------------------- */
 
@@ -2254,7 +2449,8 @@ Usage (In Ghost editor):
     padding-top: 20px;
     padding-bottom: 60px;
     color: #fff;
-    background: color(var(--darkgrey) l(-15%));
+    font-weight: 600;
+    background: color-mod(var(--darkgrey) lightness(-9%) saturation(-10%));
 }
 
 .site-footer-content {
@@ -2304,7 +2500,229 @@ Usage (In Ghost editor):
     .site-footer-content {
         flex-direction: column;
     }
+
     .site-footer-nav a:first-child {
         margin-left: 0;
+    }
+}
+
+/* 12. Dark Mode
+/* ---------------------------------------------------------- */
+@media (prefers-color-scheme: dark) {
+    body {
+        color: rgba(255, 255, 255, 0.75);
+        background: var(--darkmode);
+    }
+
+    img {
+        opacity: 0.9;
+    }
+
+    .site-header-background:before {
+        background: rgba(0,0,0,0.6);
+    }
+
+    .post-feed {
+        background: var(--darkmode);
+    }
+
+    .post-card,
+    .post-card:hover {
+        border-bottom-color: color-mod(var(--darkmode) l(+8%));
+    }
+
+    .author-profile-image {
+        background: var(--darkmode);
+    }
+
+    .post-card-byline-content a {
+        color: rgba(255, 255, 255, 0.75);
+    }
+
+    .post-card-byline-content a:hover {
+        color: #fff;
+    }
+
+    .post-card-image {
+        background: var(--darkmode);
+    }
+
+    .post-card-title {
+        color: rgba(255, 255, 255, 0.85);
+    }
+
+    .post-card-excerpt {
+        color: color-mod(var(--midgrey) l(+10%));
+    }
+
+    .author-avatar,
+    .static-avatar {
+        border-color: color-mod(var(--darkgrey) l(+2%));
+    }
+
+    .site-main,
+    .post-template .site-main,
+    .page-template .site-main {
+        background: var(--darkmode);
+    }
+
+    .post-full-content {
+        background: var(--darkmode);
+    }
+
+    .post-full-title {
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .post-full-custom-excerpt {
+        color: color-mod(var(--midgrey) l(+10%));
+    }
+
+    .post-full-image {
+        background-color: color-mod(var(--darkmode) l(+8%));
+    }
+
+    .post-full-byline {
+        border-top-color: color-mod(var(--darkmode) l(+15%));
+    }
+
+    .post-full-byline-meta h4 a {
+        color: rgba(255, 255, 255, 0.75);
+    }
+
+    .post-full-byline-meta h4 a:hover {
+        color: #fff;
+    }
+
+    .author-list-item .author-card {
+        background: color-mod(var(--darkmode) l(+4%));
+        box-shadow: 0 12px 26px rgba(0,0,0,0.4);
+    }
+
+    .author-list-item .author-card:before {
+        border-top-color: color-mod(var(--darkmode) l(+4%));
+    }
+
+    .no-image .author-social-link a {
+        color: rgba(255, 255, 255, 0.75);
+    }
+
+    .post-full-content h1,
+    .post-full-content h2,
+    .post-full-content h3,
+    .post-full-content h4,
+    .post-full-content h6 {
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .post-full-content a {
+        color: #fff;
+        box-shadow: inset 0 -1px 0 #fff;
+    }
+
+    .post-full-content strong {
+        color: #fff;
+    }
+
+    .post-full-content em {
+        color: #fff;
+    }
+
+    .post-full-content code {
+        color: #fff;
+        background: #000;
+    }
+
+    hr {
+        border-top-color: color-mod(var(--darkmode) l(+8%));
+    }
+
+    .post-full-content figcaption {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .post-full-content table td:first-child {
+        background-image: linear-gradient(to right, var(--darkmode) 50%, color-mod(var(--darkmode) a(0%)) 100%);
+    }
+
+    .post-full-content table td:last-child {
+        background-image: linear-gradient(to left, var(--darkmode) 50%, color-mod(var(--darkmode) a(0%)) 100%);
+    }
+
+    .post-full-content table th {
+        color: rgba(255, 255, 255, 0.85);
+        background-color: color-mod(var(--darkmode) l(+8%));
+    }
+
+    .post-full-content table th,
+    .post-full-content table td {
+        border: color-mod(var(--darkmode) l(+8%)) 1px solid;
+    }
+
+    .post-full-content .kg-bookmark-container,
+    .post-full-content .kg-bookmark-container:hover {
+        color: rgba(255, 255, 255, 0.75);
+        box-shadow: 0 0 1px rgba(255,255,255,0.9);
+    }
+
+    .kg-bookmark-title {
+        color: #fff;
+    }
+
+    .kg-bookmark-description {
+        color: rgba(255, 255, 255, 0.75);
+    }
+
+    .kg-bookmark-metadata {
+        color: rgba(255, 255, 255, 0.75);
+    }
+
+    .site-archive-header .no-image {
+        color: rgba(255, 255, 255, 0.9);
+        background: var(--darkmode);
+    }
+
+    .site-archive-header .no-image .site-header-content {
+        border-bottom-color: color-mod(var(--darkmode) l(+15%));
+    }
+
+    .site-header-content .author-profile-image {
+        box-shadow: 0 0 0 6px hsla(0,0%,100%,0.04);
+    }
+
+    .subscribe-form {
+        border: none;
+        background: linear-gradient(color-mod(var(--darkmode) l(-6%)), color-mod(var(--darkmode) l(-3%)));
+    }
+
+    .subscribe-form-title {
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .subscribe-form p {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .subscribe-email {
+        border-color: color-mod(var(--darkmode) l(+6%));
+        color: rgba(255, 255, 255, 0.9);
+        background: color-mod(var(--darkmode) l(+3%));
+    }
+
+    .subscribe-email:focus {
+        border-color: color-mod(var(--darkmode) l(+25%));
+    }
+
+    .subscribe-form button {
+        opacity: 0.9;
+    }
+
+    .subscribe-form .invalid .message-error,
+    .subscribe-form .error .message-error {
+        color: color-mod(var(--red) l(+5%) s(-5%));
+    }
+
+    .subscribe-form .success .message-success {
+        color: color-mod(var(--green) l(+5%) s(-5%));
     }
 }

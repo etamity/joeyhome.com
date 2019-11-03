@@ -12,13 +12,13 @@
   color: var(--whitegrey);
   font-size: 1.4rem;
   line-height: 1.5em;
+  padding: 0;
 }
 
 .post-full-content pre code {
   font-size: inherit;
   line-height: inherit;
   background: transparent;
-  margin: 2em 0;
   padding: 20px;
   box-shadow: none;
   background: black;

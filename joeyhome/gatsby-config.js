@@ -8,9 +8,9 @@ module.exports = {
     description: `Discover the harmony of code 💻 and music 🎹.`,
     siteUrl: 'https://joeyhome.com',
     social: {
-      twitter: 'g33kscr33d',
-      facebook: 'g33kscr33d',
-      instagram: 'g33kscr33d',
+      twitter: 'etamity',
+      facebook: '',
+      instagram: 'joeyetamity',
       github: 'etamity'
     },
     config: {

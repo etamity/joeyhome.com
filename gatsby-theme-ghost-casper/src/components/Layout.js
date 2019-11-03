@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, StaticQuery, graphql } from 'gatsby';
 import Helmet from 'react-helmet';
-import { getSocialUrl } from '../utils/url';
+import { getSocialUrl, getGitHubUrl, getInstagramUrl } from '../utils/url';
 
 import '../style/screen.css';
 import '../style/style.css';
@@ -49,6 +49,8 @@ class Template extends React.Component {
                     social {
                       facebook
                       twitter
+                      github
+                      instagram
                     }
                   }
                 }
@@ -56,7 +58,7 @@ class Template extends React.Component {
             `}
             render={data => {
               const { title, social } = data.site.siteMetadata;
-              const { facebook, twitter } = social;
+              const { github, twitter, instagram } = social;
               return (
                 <footer className='site-footer outer'>
                   <div className='site-footer-content inner'>
@@ -68,9 +70,9 @@ class Template extends React.Component {
                       <a
                         target='_blank'
                         rel='noopener noreferrer'
-                        href={getSocialUrl('facebook', facebook)}
+                        href={getGitHubUrl(github)}
                       >
-                        Facebook
+                        Github
                       </a>
                       <a
                         target='_blank'
@@ -82,16 +84,9 @@ class Template extends React.Component {
                       <a
                         target='_blank'
                         rel='noopener noreferrer'
-                        href='https://ghost.org'
+                        href={getInstagramUrl(instagram)}
                       >
-                        Theme By Ghost
-                      </a>
-                      <a
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        href='https://gatsbyjs.org'
-                      >
-                        Powered By Gatsby
+                        Instagram
                       </a>
                     </nav>
                   </div>
