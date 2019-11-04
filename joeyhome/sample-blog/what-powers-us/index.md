@@ -14,7 +14,7 @@ An overview of various tools and services that were used for building and hostin
 [Gatsby](https://gatsbyjs.org/ 'Gatsby') is an open source static site generator powered by [React](http://reactjs.org/ 'React'). It enables developers to build _apps_ and _websites_ using [JAMstack](https://jamstack.org/ 'JAMstack') and provides modern website building features like _code splitting, pre fetching, PWA_ out of the box.
 
 Posts can be written in [Markdown](https://guides.github.com/features/mastering-markdown/ 'Markdown') format and customize it with HTML, CSS and React knowledge. You can bring data from many [sources](https://www.gatsbyjs.org/docs/content-and-data/ 'Gatsby Content and Data') at the time of building the app.
-Sites built using Gatsby can be hosted using any static server. Also it can be hosted in [Github pages](https://pages.github.com 'Github Pages') for free.
+Sites built using Gatsby can be hosted using any static server. Also it can be hosted in [Github pages](https://posts.github.com 'Github Pages') for free.
 
 ### GoDaddy
 
@@ -27,7 +27,7 @@ In addition to that, they also provide professional email, WordPress hosting and
 
 ### GitHub
 
-[GitHub](https://github.com) is an online Git repository hosting service. A software developer might have heard of GitHub already. It is most commonly used website to host Open Source software and libraries. GitHub offers unlimited public repositories for free and private repositories for a reasonable price. GitHub provides `pages` service using which a small website for user/organisation/project can be hosted for free. This site is hosted using [GitHub Pages](https://pages.github.io).
+[GitHub](https://github.com) is an online Git repository hosting service. A software developer might have heard of GitHub already. It is most commonly used website to host Open Source software and libraries. GitHub offers unlimited public repositories for free and private repositories for a reasonable price. GitHub provides `pages` service using which a small website for user/organisation/project can be hosted for free. This site is hosted using [GitHub Pages](https://posts.github.io).
 
 ### Disqus
 

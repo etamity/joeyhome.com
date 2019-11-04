@@ -9,7 +9,7 @@ exports.onPreBootstrap = ({ store, reporter }) => {
   const { program } = store.getState();
 
   const dirs = [
-    path.join(program.directory, 'src/pages'),
+    path.join(program.directory, 'src/posts'),
     path.join(program.directory, 'src/data'),
   ];
 
@@ -89,7 +89,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
     const context = {
       slug: post.node.fields.slug,
-      body: post.node.body,
       primaryTag: tags ? tags[0] : '',
       previous: _.get(previous, 'fields.slug', ''),
       next: _.get(next, 'fields.slug', ''),

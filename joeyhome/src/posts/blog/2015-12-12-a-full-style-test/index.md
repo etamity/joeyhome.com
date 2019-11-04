@@ -1,6 +1,6 @@
 ---
-title: A Full and Comprehensive Style Test
-date: 2017-12-12
+title: A Full and Comprehensive of Markdown
+date: 2015-12-12
 tags: ['react', 'web-dev', 'webpack']
 author: etamity
 featuredImage: ../../../assets/featured-image.jpg

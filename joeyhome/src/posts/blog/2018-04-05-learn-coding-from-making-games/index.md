@@ -3,7 +3,7 @@ title: "Learn coding from making games"
 author: etamity
 tags: ["Projects", "Tech"]
 featuredImage: ./cover.png
-date: '2018-11-24'
+date: '2018-04-05'
 draft: false
 ---
 

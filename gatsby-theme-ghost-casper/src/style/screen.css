@@ -710,6 +710,7 @@ make sure this only happens on large viewports / desktop-ish devices.
     color: var(--midgrey);
     font-size: 1.4rem;
     font-weight: 600;
+    margin: 0.5rem 0;
     text-transform: uppercase;
 }
 
@@ -983,10 +984,6 @@ Usage (In Ghost editor):
     margin: 1.5em 0 3em;
 }
 
-.post-full-content hr {
-    margin: 4vw 0;
-}
-
 .post-full-content hr:after {
     content: "";
     position: absolute;
@@ -1012,7 +1009,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h1 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0 0.8em 0;
     font-size: 4.6rem;
     font-weight: 700;
 }
@@ -1023,7 +1020,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h2 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0 0.8em 0;
     font-size: 3.6rem;
     font-weight: 700;
 }
@@ -1034,8 +1031,8 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h3 {
-    margin: 0.5em 0 0.2em 0;
-    font-size: 2.8rem;
+    margin: 0.5em 0 0.8em 0;
+    font-size: 3.2rem;
     font-weight: 700;
 }
 @media (max-width: 500px) {
@@ -1045,7 +1042,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h4 {
-    margin: 0.5em 0 0.2em 0;
+    margin: 0.5em 0 0.8em 0;
     font-size: 2.8rem;
     font-weight: 700;
 }
@@ -1056,15 +1053,9 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h5 {
-    display: block;
-    margin: 0.5em 0;
-    padding: 1em 0 1.5em;
-    border: 0;
-    color: var(--blue);
-    font-family: Georgia,serif;
-    font-size: 3.2rem;
-    line-height: 1.35em;
-    text-align: center;
+    margin: .5em 0 .2em;
+    font-size: 2.4rem;
+    font-weight: 700;
 }
 @media (min-width: 1180px) {
     .post-full-content h5 {
@@ -1080,8 +1071,8 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h6 {
-    margin: 0.5em 0 0.2em 0;
-    font-size: 2.3rem;
+    margin: 0.5em 0 0.8em 0;
+    font-size: 2rem;
     font-weight: 700;
 }
 @media (max-width: 500px) {

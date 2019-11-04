@@ -123,7 +123,6 @@ class PostTemplate extends React.Component {
 
   render() {
     const { data, pageContext, location } = this.props;
-    console.log('data blog', data);
     const { post, previousPost, nextPost } = data;
     const { frontmatter, fields, excerpt } = post;
     const { tags, featuredImage } = frontmatter;
@@ -138,7 +137,7 @@ class PostTemplate extends React.Component {
       postExcerpt = excerpt,
       slug = fields.slug;
 
-    const { primaryTag, body } = pageContext,
+    const { primaryTag } = pageContext,
       relatedPosts = data.relatedPosts,
       titleToShow = `${postTitle} | ${siteTitle}`;
 
@@ -231,7 +230,7 @@ class PostTemplate extends React.Component {
               )}
 
               <section className='post-full-content'>
-                <MDXRenderer>{body}</MDXRenderer>
+                <MDXRenderer>{post.body}</MDXRenderer>
               </section>
 
               <Author author={frontmatter.author} />
@@ -346,6 +345,7 @@ export const pageQuery = graphql`
     post: mdx(fields: { slug: { eq: $slug } }) {
       id
       excerpt
+      body
       frontmatter {
         title
         date(formatString: "DD MMMM YYYY")
