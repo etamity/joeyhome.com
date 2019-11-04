@@ -60,6 +60,7 @@ module.exports = themeOptions => ({
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
+          'gatsby-remark-abbr',
         ],
         plugins: ['gatsby-remark-images'],
       },

@@ -8,7 +8,7 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postbuild": "rm -rf ../public/* && mkdir ../public && cp -r public/* ../public/"
+    "postbuild": "rm -rf ../public && mkdir ../public && cp -r public/* ../public/"
   },
   "keywords": [
     "gatsby",
@@ -26,6 +26,7 @@
     "gatsby-plugin-manifest": "^2.2.1",
     "gatsby-plugin-mdx": "^1.0.55",
     "gatsby-plugin-offline": "^2.2.1",
+    "gatsby-remark-abbr": "^1.0.0",
     "gatsby-theme-ghost-casper": "*",
     "prism-themes": "^1.1.0",
     "prismjs": "^1.16.0"

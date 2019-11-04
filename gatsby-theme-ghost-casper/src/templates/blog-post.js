@@ -15,7 +15,7 @@ import RelatedPosts from '../components/RelatedPosts';
 import logo from '../assets/logo.png';
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
-class BlogPostTemplate extends React.Component {
+class PostTemplate extends React.Component {
   constructor(props) {
     super(props);
     this.progressBarRef = React.createRef();
@@ -68,9 +68,9 @@ class BlogPostTemplate extends React.Component {
     this.lastWindowHeight = window.innerHeight;
     this.lastDocumentHeight = document.documentElement.offsetHeight;
 
-    // window.addEventListener('scroll', this.onScroll, { passive: true });
-    // window.addEventListener('resize', this.onResize, false);
-
+    window.addEventListener('scroll', this.onScroll, { passive: true });
+    window.addEventListener('resize', this.onResize, false);
+    this.requestTick();
   }
 
   componentWillUnmount() {
@@ -297,7 +297,7 @@ class BlogPostTemplate extends React.Component {
   }
 }
 
-export default BlogPostTemplate;
+export default PostTemplate;
 
 export const pageQuery = graphql`
   query($slug: String!, $primaryTag: String, $previous: String, $next: String) {

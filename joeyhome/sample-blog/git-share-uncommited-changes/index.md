@@ -1,5 +1,5 @@
 ---
-title: Git - Share Uncommitted Changes without Pushing
+title: Git - Share Uncommitted Changes without Pushing111
 date: 2018-12-29
 tags: ['git']
 author: etamity
@@ -16,8 +16,6 @@ A typical git workflow will be like
 * Make the required changes. 
 * `commit` those changes.
 * `push` them to the remote.
-
-![Typical Git Workflow](./git-workflow.png "A Typical Git Workflow 🐙 😺")
 
 What if you have some pending changes which you don't want to commit but have to share them to others / share it to another machine? Let's find out.
 
