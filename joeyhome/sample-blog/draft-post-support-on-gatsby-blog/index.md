@@ -7,7 +7,7 @@ featuredImage: ./drafts.jpg
 draft: false
 ---
 
-Ever encountered a situation where you need to skip some unfinished, unpolished posts while deploying your Gatsby blog?
+111Ever encountered a situation where you need to skip some unfinished, unpolished posts while deploying your Gatsby blog?
 
 [Gatsby](/tag/gatsby) is awesome 💟.
 

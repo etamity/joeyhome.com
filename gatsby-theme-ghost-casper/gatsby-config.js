@@ -25,18 +25,6 @@ module.exports = themeOptions => ({
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-postcss`,
-      options: {
-        postCssPlugins: [
-          require(`postcss-easy-import`),
-          require(`postcss-custom-properties`),
-          require(`postcss-color-mod-function`),
-          require('autoprefixer'),
-          require('cssnano')
-        ],
-      },
-    },
-    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: path.resolve('src/pages'),
@@ -74,6 +62,18 @@ module.exports = themeOptions => ({
           'gatsby-remark-smartypants',
         ],
         plugins: ['gatsby-remark-images'],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [
+          require(`postcss-easy-import`),
+          require(`postcss-custom-properties`),
+          require(`postcss-color-mod-function`),
+          require('autoprefixer'),
+          require('cssnano')
+        ],
       },
     },
     // {

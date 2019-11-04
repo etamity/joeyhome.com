@@ -4,6 +4,7 @@ date: 2017-12-12
 tags: ['react', 'web-dev', 'webpack']
 author: etamity
 featuredImage: ../../../assets/featured-image.jpg
+draft: false
 ---
 
 Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.

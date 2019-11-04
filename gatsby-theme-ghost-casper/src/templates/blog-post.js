@@ -68,10 +68,9 @@ class BlogPostTemplate extends React.Component {
     this.lastWindowHeight = window.innerHeight;
     this.lastDocumentHeight = document.documentElement.offsetHeight;
 
-    window.addEventListener('scroll', this.onScroll, { passive: true });
-    window.addEventListener('resize', this.onResize, false);
+    // window.addEventListener('scroll', this.onScroll, { passive: true });
+    // window.addEventListener('resize', this.onResize, false);
 
-    this.requestTick();
   }
 
   componentWillUnmount() {
@@ -139,7 +138,7 @@ class BlogPostTemplate extends React.Component {
       postExcerpt = excerpt,
       slug = fields.slug;
 
-    const { primaryTag } = pageContext,
+    const { primaryTag, body } = pageContext,
       relatedPosts = data.relatedPosts,
       titleToShow = `${postTitle} | ${siteTitle}`;
 
@@ -232,7 +231,7 @@ class BlogPostTemplate extends React.Component {
               )}
 
               <section className='post-full-content'>
-                <MDXRenderer>{post.body}</MDXRenderer>
+                <MDXRenderer>{body}</MDXRenderer>
               </section>
 
               <Author author={frontmatter.author} />
@@ -347,7 +346,6 @@ export const pageQuery = graphql`
     post: mdx(fields: { slug: { eq: $slug } }) {
       id
       excerpt
-      body
       frontmatter {
         title
         date(formatString: "DD MMMM YYYY")

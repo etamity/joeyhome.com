@@ -89,6 +89,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
     const context = {
       slug: post.node.fields.slug,
+      body: post.node.body,
       primaryTag: tags ? tags[0] : '',
       previous: _.get(previous, 'fields.slug', ''),
       next: _.get(next, 'fields.slug', ''),
