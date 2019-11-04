@@ -15,4 +15,4 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: public
-          BUILD_SCRIPT: yarn && yarn joeyhome:build
+          BUILD_SCRIPT: yarn && yarn &{{secrets.REPO_NAME}}:build
