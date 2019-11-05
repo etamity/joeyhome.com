@@ -62,6 +62,6 @@ module.exports = {
         icon: path.resolve('src/assets/icon.png')
       }
     },
-    // 'gatsby-plugin-offline'
+    'gatsby-plugin-offline'
   ]
 };
