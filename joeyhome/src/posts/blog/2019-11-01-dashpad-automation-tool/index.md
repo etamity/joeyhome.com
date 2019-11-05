@@ -2,7 +2,7 @@
 title: "Desktop Automation Framework"
 author: etamity
 tags: ["Projects", "Tech"]
-featuredImage: ./cover.jpeg
+featuredImage: ./dashpad-cover.png
 date: '2019-11-01'
 draft: false
 ---

@@ -42,12 +42,12 @@ module.exports = {
         //     }
         //   }
         // },
-        // {
-        //   resolve: 'gatsby-plugin-google-analytics',
-        //   options: {
-        //     trackingId: 'UA-45418096-3'
-        //   }
-        // }
+        {
+          resolve: 'gatsby-plugin-google-analytics',
+          options: {
+            trackingId: 'UA-45418096-3'
+          }
+        }
       ] :
       []),
     {
@@ -62,6 +62,6 @@ module.exports = {
         icon: path.resolve('src/assets/icon.png')
       }
     },
-    'gatsby-plugin-offline'
+    // 'gatsby-plugin-offline'
   ]
 };
