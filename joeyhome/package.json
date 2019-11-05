@@ -9,7 +9,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postbuild": "rm -r ../public && mkdir ../public && cp -r public/* ../public/"
+    "postbuild": "mkdir -p ../public/ && cp -Rf public/* ../public/"
   },
   "keywords": [
     "gatsby",
