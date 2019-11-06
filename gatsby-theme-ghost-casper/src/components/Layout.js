@@ -3,9 +3,9 @@ import { Link, StaticQuery, graphql } from 'gatsby';
 import Helmet from 'react-helmet';
 import { getSocialUrl, getGitHubUrl, getInstagramUrl } from '../utils/url';
 
-import '../style/screen.css';
-import '../style/style.css';
-import '../style/override.css';
+import '../styles/screen.css';
+import '../styles/style.css';
+import '../styles/override.css';
 
 class Template extends React.Component {
   constructor(props) {

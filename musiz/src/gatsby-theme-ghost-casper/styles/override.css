@@ -1,0 +1,48 @@
+.site-nav-logo {
+  padding: 0px;
+}
+
+.floating-header-share a {
+  cursor: pointer;
+}
+
+.post-full-content pre {
+  max-width: 100%;
+  border: none;
+  color: var(--whitegrey);
+  font-size: 1.4rem;
+  line-height: 1.5em;
+  padding: 0;
+}
+
+.post-full-content pre code {
+  font-size: inherit;
+  line-height: inherit;
+  background: transparent;
+  padding: 20px;
+  box-shadow: none;
+  background: black;
+  color: white;
+}
+
+.floating-header-logo {
+  padding: 10px;
+}
+.floating-header {
+  background: #15171a;
+}
+
+.floating-header-logo a,
+.floating-header-share-label,
+.floating-header-title {
+  color: white;
+}
+
+.floating-header-title {
+  font-weight: normal;
+}
+
+.site-logo {
+  max-height: 45px;
+  padding-right: 12px;
+}

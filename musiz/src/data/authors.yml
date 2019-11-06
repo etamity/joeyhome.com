@@ -1,0 +1,12 @@
+- id: etamity
+  name: Joey Etamity
+  bio: >
+    Software Engineer
+    Discover the harmony of code💻 and music🎹.
+  location: London, United Kingdom
+  website: https://etamity.github.io
+  twitter: etamity
+  facebook: joey.etamity
+  profileImage: /authors/etamity/avatar.png
+  coverImage: /authors/etamity/cover.jpeg
+

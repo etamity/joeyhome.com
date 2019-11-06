@@ -1,0 +1,10 @@
+- id: general
+  name: General
+  description: description about the tag general
+  featureImage: ../assets/feature-image.jpg
+- id: tech
+  description: Some of the greatest technology
+  featureImage: ../assets/feature-image.jpg
+- id: projects
+  description: Personal fun projects 
+  featureImage: ../assets/img/feature-image.jpg

@@ -1,7 +1,7 @@
 {
-  "name": "joeyhome",
+  "name": "musiz",
   "version": "1.0.1",
-  "description": "Discover the harmony of code and music.",
+  "description": "Discover the beauty of music harmony🎹.",
   "private": true,
   "scripts": {
     "develop": "gatsby develop",
@@ -13,7 +13,7 @@
   },
   "keywords": [
     "gatsby",
-    "JoeyHome",
+    "Musiz",
     "JavaScript"
   ],
   "author": "Joey Etamity <etamity@gmail.com>",

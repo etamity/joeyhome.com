@@ -7,10 +7,14 @@
   "scripts": {
     "joeyhome:develop": "yarn workspace joeyhome develop",
     "joeyhome:clean": "yarn workspace joeyhome clean",
-    "joeyhome:build": "yarn workspace joeyhome build"
+    "joeyhome:build": "yarn workspace joeyhome build",
+    "musiz:develop": "yarn workspace musiz develop",
+    "musiz:clean": "yarn workspace musiz clean",
+    "musiz:build": "yarn workspace musiz build"
   },
   "workspaces": [
     "gatsby-theme-ghost-casper",
-    "joeyhome"
+    "joeyhome",
+    "musiz"
   ]
 }

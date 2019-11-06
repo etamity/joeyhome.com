@@ -15,8 +15,8 @@ module.exports = themeOptions => ({
     config: {
       postsPerPage: 10,
       disqus: '',
-      scripts: []
-    }
+      scripts: [],
+    },
   },
   pathPrefix: themeOptions.pathPrefix || '',
   mapping: {
@@ -57,12 +57,23 @@ module.exports = themeOptions => ({
               wrapperStyle: 'margin-bottom: 1.0725rem',
             },
           },
+          {
+            resolve: require.resolve('./plugins/gatsby-remark-music'),
+            options: {
+              // Add any abcjs options from https://github.com/paulrosen/abcjs here
+              // plus a custom "color" option that allows you to set the color of the music sheet.
+              // e.g. to use CSS variables:
+              color: 'var(--text-color)',
+            },
+          },
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
           'gatsby-remark-abbr',
         ],
-        plugins: ['gatsby-remark-images'],
+        plugins: [
+          'gatsby-remark-images',
+        ],
       },
     },
     {
@@ -73,7 +84,7 @@ module.exports = themeOptions => ({
           require(`postcss-custom-properties`),
           require(`postcss-color-mod-function`),
           require('autoprefixer'),
-          require('cssnano')
+          require('cssnano'),
         ],
       },
     },
@@ -89,7 +100,7 @@ module.exports = themeOptions => ({
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-feed',
-      options: require('gatsby-plugin-mdx/feed')
+      options: require('gatsby-plugin-mdx/feed'),
     },
     'gatsby-plugin-react-helmet',
     {

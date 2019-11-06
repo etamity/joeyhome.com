@@ -3,10 +3,10 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'JoeyHome',
+    title: 'Musiz',
     author: 'Joey Etamity',
-    description: `Discover the harmony of code 💻 and music 🎹.`,
-    siteUrl: 'https://joeyhome.com',
+    description: `Discover the beauty of music harmony🎹.`,
+    siteUrl: 'https://musiz.uk',
     social: {
       twitter: 'etamity',
       facebook: '',
@@ -53,8 +53,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'JoeyHome Tech Blog',
-        short_name: 'JoeyHome',
+        name: 'Musiz Blog',
+        short_name: 'Musiz',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#663399',

@@ -9,6 +9,7 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
+    "abcjs": "^5.9.1",
     "autoprefixer": "^9.7.1",
     "cssnano": "^4.1.10",
     "disqus-react": "^1.0.6",
@@ -29,16 +30,18 @@
     "gatsby-remark-responsive-iframe": "^2.2.1",
     "gatsby-remark-smartypants": "^2.1.0",
     "gatsby-source-filesystem": "^2.1.2",
-    "gatsby-transformer-remark": "^2.6.9",
+    "gatsby-transformer-remark": "^2.6.32",
     "gatsby-transformer-sharp": "^2.3.2",
     "gatsby-transformer-yaml": "^2.2.15",
+    "jsdom": "^15.2.1",
     "lodash": "4.17.15",
     "postcss-color-mod-function": "^3.0.3",
     "postcss-custom-properties": "^9.0.2",
     "postcss-easy-import": "^3.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "remark-music": "^0.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
