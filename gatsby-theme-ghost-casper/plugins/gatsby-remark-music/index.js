@@ -6,7 +6,7 @@ global.DocumentType = dom.window.DocumentType;
 global.window = dom.window;
 global.document = dom.window.document;
 const visit = require('unist-util-visit');
-const abc = require('abcjs/midi');
+const abc = require('abcjs');
 const remarkMusic = require('remark-music');
 
 const container = document.createElement('div');;
@@ -19,12 +19,12 @@ module.exports = ({ markdownAST }, { color = '#000', ...params } = {}) => {
       viewportVertical: true,
       ...params,
     });
-    abc.renderMidi(container, node.value, {
-      responsive: 'resize',
-      viewportHorizontal: true,
-      viewportVertical: true,
-      ...params,
-    });
+    // abc.renderMidi(container, node.value, {
+    //   responsive: 'resize',
+    //   viewportHorizontal: true,
+    //   viewportVertical: true,
+    //   ...params,
+    // });
     node.value = container.innerHTML
       // Replace all the fill and stroke colors with user defined color
       .replace(/#000000/g, color)

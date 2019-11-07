@@ -10,7 +10,7 @@ draft: false
 ## React App uses Price Searcher API
 
 [Github](https://github.com/etamity/pricesearch)    |
-[Demo Link](https://etamity.github.io/pricesearch/index.html)
+[Demo Link](https://etamity.github.io/pricesearch/index)
 
 
 To fast install dependences, I recommend to use [yarn](https://yarnpkg.com/lang/en/). Otherwise, you can use `npm run` instead `yarn`.
