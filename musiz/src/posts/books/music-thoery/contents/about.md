@@ -1,6 +1,6 @@
 ---
 title: About Open Music Theory
-featuredImage: contents/openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature1.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity

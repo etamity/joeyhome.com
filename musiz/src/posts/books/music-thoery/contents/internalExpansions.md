@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature33.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -24,11 +24,11 @@ When a two-measure basic idea or contrasting idea is expanded, that expansion is
 	
 <iframe src="https://embed.spotify.com/?uri=spotify:track:78LK9tbF0jwOd4PYtk42WD" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
 	
-Mozart's Rondo in F begins with a [period](period/). A half cadence in m. 6 is followed by a consequent phrase that ends with a PAC in m. 12. The theme’s exceptional length is caused in part by an *expansion* of the initial basic idea: in m. 3, the piano repeats m. 2. One could imagine a simple recomposition of the passage, omitting m. 3, that would restore the sub-phrase to a normal, 2-bar length.
+Mozart's Rondo in F begins with a [period](../period/). A half cadence in m. 6 is followed by a consequent phrase that ends with a PAC in m. 12. The theme’s exceptional length is caused in part by an *expansion* of the initial basic idea: in m. 3, the piano repeats m. 2. One could imagine a simple recomposition of the passage, omitting m. 3, that would restore the sub-phrase to a normal, 2-bar length.
 
 The _contrasting idea_ is also three bars long. But in this case, it is _less clear_ if the greater length is due to _expansion._ There is _no repetition,_ and it's difficult to imagine a two-measure recomposition of the _contrasting idea_ that wouldn't destroy some aspect of its melodic or harmonic structure.
 
-In other words, [_irregular lengths_](internalExpansions/#non-standard-lengths) don't always indicate that an expansion has occurred.
+In other words, [_irregular lengths_](../internalExpansions/#non-standard-lengths) don't always indicate that an expansion has occurred.
 
 ##Phrase Expansion##
 
@@ -45,7 +45,7 @@ The main theme's first eight measures form a simple sentence. But at the moment 
 
 <hr />
 
-In the example above, the cadence in m. 8 gave rise to an expansion because as it was weaker than expected. ([Primary themes](sonataThematicModules/#primary-theme-module-p) rarely conclude with IACs.) This is one of the most common musical motivations for a phrase expansion. In addition to IACs, deceptive cadences can lead to expanded phrases, and not uncommonly, an expected cadence never materializes at all—an event often called an "evaded cadence."
+In the example above, the cadence in m. 8 gave rise to an expansion because as it was weaker than expected. ([Primary themes](../sonataThematicModules/#primary-theme-module-p) rarely conclude with IACs.) This is one of the most common musical motivations for a phrase expansion. In addition to IACs, deceptive cadences can lead to expanded phrases, and not uncommonly, an expected cadence never materializes at all—an event often called an "evaded cadence."
 
 <figure>	
   <img src="/Graphics/form/k309.png" />
@@ -54,12 +54,12 @@ In the example above, the cadence in m. 8 gave rise to an expansion because as i
 
 <iframe src="https://embed.spotify.com/?uri=spotify:track:7DsGTbl7EABrY5GK6Dza9P" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
 
-The primary theme of this sonata is a [compound period](compoundPeriod/#a-compound-period-comprised-of-two-sentences) made from two sentences. Following the half cadence in m. 8, the _large consequent_ is expected to conclude with a PAC in m. 16. But the PAC never materializes: the leading tone in m. 15 is not resolved, the pianist's right hand leaps up to A5 instead. The cadence, in other words, is _evaded_. The next four measures (mm. 16–19) are a varied repeat of mm. 13-15, "one more time," culminating in a PAC in m. 19.
+The primary theme of this sonata is a [compound period](../compoundPeriod/#a-compound-period-comprised-of-two-sentences) made from two sentences. Following the half cadence in m. 8, the _large consequent_ is expected to conclude with a PAC in m. 16. But the PAC never materializes: the leading tone in m. 15 is not resolved, the pianist's right hand leaps up to A5 instead. The cadence, in other words, is _evaded_. The next four measures (mm. 16–19) are a varied repeat of mm. 13-15, "one more time," culminating in a PAC in m. 19.
 
 ##Non-standard Lengths
 We often find expansions in places where the size of a sub-phrase or phrase has been increased. The phrase expansion described above created an 11-bar continuation, for example. But irregular phrase lengths do not necessarily indicate the presence of a phrase expansion.
 
-For example, listen a few times to the first 30 seconds of the following passage, from Mozart's String Quintet in C major, K. 515. Its main theme is a [compound sentence](compoundSentence/). The theme's [presentation](themeFunctions/#presentation) has three basic ideas (at 0:00, 0:09, and 0:16), each of which is constructed as a [compound basic idea](hybridThemes/#compound-basic-idea)that contains a basic idea followed by a contrasting one:
+For example, listen a few times to the first 30 seconds of the following passage, from Mozart's String Quintet in C major, K. 515. Its main theme is a [compound sentence](../compoundSentence/). The theme's [presentation](../themeFunctions/#presentation) has three basic ideas (at 0:00, 0:09, and 0:16), each of which is constructed as a [compound basic idea](../hybridThemes/#compound-basic-idea)that contains a basic idea followed by a contrasting one:
 
 <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A0Mkcj2eA2EMqMGfzwCnd0u" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
    

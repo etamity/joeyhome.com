@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature13.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -26,7 +26,7 @@ From these *cantus*, notice how the general musical characteristics of smoothnes
 - arhythmic (all whole notes; no long or short notes)  
 - begin and end on *do*  
 - approach final tonic by step (usually *re*–*do*, sometimes *ti*–*do*)  
-- all note-to-note progressions are [melodic consonances](intervals/)  
+- all note-to-note progressions are [melodic consonances](../intervals/)  
 - range (interval between lowest and highest notes) of no more than a tenth, usually less than an octave  
 - a single climax (high point) that appears only once in the melody  
 - clear logical connection and smooth shape from beginning to climax to ending  

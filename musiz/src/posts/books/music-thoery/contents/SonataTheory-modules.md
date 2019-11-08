@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature99.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -60,7 +60,7 @@ Like the EEC, it is the "first satisfactory PAC [within S] that goes on to diffe
 
 The P theme has several functions: establish the home key (with or without a cadence), present the main melodic material that begins the thematic cycle, and begin the motion toward the MC and the EEC.
 
-A P theme may exhibit any [standard theme forms](classicalThemes/) (sentence, period, hybrid, compound, or small ternary). Sometimes, it can even be a single phrase (antecedent or presentation). 
+A P theme may exhibit any [standard theme forms](../classicalThemes/) (sentence, period, hybrid, compound, or small ternary). Sometimes, it can even be a single phrase (antecedent or presentation). 
 
 A P theme may be harmonically closed (ending *on-tonic*) or open (ending *off-tonic*). A fully closed P theme will end with an authentic cadence, preferably a PAC. However, sometimes a P theme will simply dissolve into the transition (TR). In that case, P may simply consist of a presentation phrase or compound basic idea, with no closing cadence. The final cadence of a P module may be elided by the beginning of TR.
 
@@ -70,7 +70,7 @@ The TR module's principal functional role is to drive toward the MC. This is bot
 
 Following are common techniques associated with TR function.
 
-TR modules often begin with what Hepokoski & Darcy call a "tutti affirmation," particularly in orchestral works. This is a noticeably louder restatement of at least the basic idea of P, before progressing to the MC. They also often exhibit motivic *Fortspinnung*—a repeated "spinning out" of fragments of a melodic motive, typically taken from the P theme. TR often features melodic or harmonic sequences. Anything else that can be associated with [*continuation* function](themeFunctions/) fits transition function, as well: fragmentation, liquidation, acceleration of melodic or harmonic rhythm, etc.
+TR modules often begin with what Hepokoski & Darcy call a "tutti affirmation," particularly in orchestral works. This is a noticeably louder restatement of at least the basic idea of P, before progressing to the MC. They also often exhibit motivic *Fortspinnung*—a repeated "spinning out" of fragments of a melodic motive, typically taken from the P theme. TR often features melodic or harmonic sequences. Anything else that can be associated with [*continuation* function](../themeFunctions/) fits transition function, as well: fragmentation, liquidation, acceleration of melodic or harmonic rhythm, etc.
 
 We will follow Hepokoski & Darcy's practice of identifying the beginning of TR at the beginning of a phrase. In general, once you hear TR function clearly projected, track back to the beginning of that phrase and label it the beginning of TR.
 

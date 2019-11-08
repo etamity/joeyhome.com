@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature30.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -44,7 +44,7 @@ Phrases are seldom 3–5 chords long, however, and a harmonic function can be ex
 
 ## Triggering and prolonging harmonic functions in an idealized phrase
 
-To establish, or trigger, a harmonic functional zone, composers tend to use *a fixed scale degree in the bass*. In other words, tonic tends to be triggered by **T1** (always **I**), subdominant by **S2** or **S4** (including a variety of **II** and **IV** chords, in in root position or inversions, with and without sevenths), and dominant by **D5** (**V**, with or without a seventh, or a [*compound cadence*](cadenceTypes)). These four categories of chords — **T1**, **S2**, **S4**, and **D5** — are called *functional chords* (because they trigger the function) or *cadential chords* (because they can participate in a cadence). 
+To establish, or trigger, a harmonic functional zone, composers tend to use *a fixed scale degree in the bass*. In other words, tonic tends to be triggered by **T1** (always **I**), subdominant by **S2** or **S4** (including a variety of **II** and **IV** chords, in in root position or inversions, with and without sevenths), and dominant by **D5** (**V**, with or without a seventh, or a [*compound cadence*](../cadenceTypes)). These four categories of chords — **T1**, **S2**, **S4**, and **D5** — are called *functional chords* (because they trigger the function) or *cadential chords* (because they can participate in a cadence). 
 
 Other chords are often called *contrapuntal chords* or *embellishing chords*, and are typically used to *prolong* a function throughout the zone. 
 
@@ -54,7 +54,7 @@ The following excerpt is from Mozart's Piano Sonata in A Major, K. 331, I., mm. 
 
 - The tonic zone is triggered by a root-position tonic triad (**I** or **T1**).  
 - Contrapuntal dominant chords (**D7** — first-inversion dominant chords) create a passing bass motion between the opening **I** chord, the **vi** in m. 3, and the return of **I** in m. 4.  
-- The [cadential progression](harmonicAnalysis) begins in m. 4 with the move from **I** to <strong>ii<sup>6</sup></strong> (**S4**) and then to the cadential six-four and dominant triad (**D5**). Note that the entirety of the cadential progression in m. 4 is made up of *cadential chords* — chords with fixed scale degrees in the bass.  
+- The [cadential progression](../harmonicAnalysis) begins in m. 4 with the move from **I** to <strong>ii<sup>6</sup></strong> (**S4**) and then to the cadential six-four and dominant triad (**D5**). Note that the entirety of the cadential progression in m. 4 is made up of *cadential chords* — chords with fixed scale degrees in the bass.  
 - In contrast, the entire tonic-prolongation zone is made up of *contrapuntal chords* — variable scale degrees in the bass — with the exception of the **I** chord that triggered the tonic function.  
 - The **vi** chord is a root-position chord, but still an embellishing chord, while the <strong>ii<sup>6</sup></strong> is an inverted chord, but still a functional/cadential chord. The difference is not the inversion, but the scale degree of the bass.
 
@@ -62,6 +62,6 @@ The following excerpt is from Mozart's Piano Sonata in A Major, K. 331, I., mm. 
 
 <iframe src="https://embed.spotify.com/?uri=spotify:track:5yfZxPrcN0hjwzU1OKIsdQ" width="300" height="80" frameborder="0" allowtransparency="true"></iframe><br/>
 
-Not all classical phrases as neatly fit the general trends outlined in this resource. As discussed in [Style and tendency](tendency), the principles of harmonic syntax are both reliable and bendable/breakable, and it is often the music that bends/breaks the "rules" in interesting ways that we care about the most. So in your own analyses, keep these principles in mind as *general* principles, and simultaneously look for where composers meet these expectations as well as where they break them. 
+Not all classical phrases as neatly fit the general trends outlined in this resource. As discussed in [Style and tendency](../tendency), the principles of harmonic syntax are both reliable and bendable/breakable, and it is often the music that bends/breaks the "rules" in interesting ways that we care about the most. So in your own analyses, keep these principles in mind as *general* principles, and simultaneously look for where composers meet these expectations as well as where they break them. 
 
-For more details on the triggering and prolonging of harmonic functions in a classical phrase, see [Harmonic syntax – prolongation](harmonicSyntax2).
+For more details on the triggering and prolonging of harmonic functions in a classical phrase, see [Harmonic syntax – prolongation](../harmonicSyntax2).

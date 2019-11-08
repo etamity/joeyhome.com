@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature35.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -17,7 +17,7 @@ Thus, the term *interval* regularly refers both to the distance between two pitc
 
 The simplest way to measure intervals, particularly at the keyboard, is to count the number of half-steps, or *semitones*, between two pitches. To determine the chromatic interval between C4 and E4, for example, start at C4 and ascend the chromatic scale to E4, counting steps along the way: C#4, D4, D#4, E4. E4 is four semitones higher than C4. Chromatic intervals are notated with a lower-case **i** followed by an Arabic numeral for the number of semitones. C4–E4 is four semitones, or **i4**.
 
-![Chromatic steps from C4 to E4.][c4e4]
+![Chromatic steps from C4 to E4.][../c4e4]
 
 ### Diatonic intervals 
 
@@ -27,7 +27,7 @@ When identifying a diatonic interval, begin with the *letter names only*. That i
 
 For example, from C4 to E4, counting both C and E, there are three diatonic steps (three letter names): C, D, E. Thus, the generic interval for C4–E4 is a *third*. The same is true for any C to any E: C#4 to E4, Cb4 to E#4, etc. They are all diatonic thirds.
 
-![Three kinds of generic thirds.][thirds]
+![Three kinds of generic thirds.][../thirds]
 
 Often more specificity is needed than generic intervals can provide. That specificity comes in the form of an interval's *quality*. Combining *quality* with a generic interval name produces a *specific interval*.
 
@@ -69,7 +69,7 @@ Solfège can also help to determine the specific interval. Each pair of solfège
 
 The intervals discussed above, from unison to octave, are called *simple intervals*. Any interval larger than an octave is considered a *compound interval*. Take the interval C4 to E5. The generic interval is a tenth. However, it functions the same as C4 to E4 in almost all musical circumstances. Thus, the tenth C4–E5 is also called a *compound third*. A compound interval takes the same quality as the corresponding simple interval. If C4–E4 is a major third, then C4–E5 is a major tenth.
 
-![Simple and compound major thirds.][compound]
+![Simple and compound major thirds.][../compound]
 
 ### Interval inversion 
 
@@ -79,7 +79,7 @@ Dyads formed by the same two pitch classes, but with different pitch classes on 
 
 Again, take C4–E4 (major third) and E4–C5 (minor sixth). These two dyads have the same two pitch classes, but one has C on bottom and E on top, while the other has E on bottom and C on top. Thus, they are inversions of each other.
 
-![Inversion relationship: major third and minor sixth.][inversion]
+![Inversion relationship: major third and minor sixth.][../inversion]
 
 Three relationships exhibited by these two dyads hold for all interval inversions. 
 
@@ -99,7 +99,7 @@ Interval inversion may seem confusing and esoteric now, but it will be an incred
 
 There are several methods for learning intervals. Choose your favorite:
 
-- [The white-key method](whiteKeyMethod/)
+- [The white-key method](../whiteKeyMethod/)
 
 
 

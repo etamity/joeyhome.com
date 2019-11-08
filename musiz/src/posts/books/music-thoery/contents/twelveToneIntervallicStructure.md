@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature116.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -9,7 +9,7 @@ title: Twelve-Tone Music — Intervallic Structure
 
 Pitch-class orderings are not the only things ordered by twelve-tone rows. Because pitch classes are always in relationships with one another, a twelve-tone row is also an ordered collection of *intervals.* Understanding the intervallic structure of a row class is the best way to get a sense of what it will sound like.    
 
-Below, you'll see the figure from resource on [operations](twelveToneOperations/). Below each of the row forms in that example, I have shown the series of [ordered pitch-class intervals](interval(Class)/).
+Below, you'll see the figure from resource on [operations](../twelveToneOperations/). Below each of the row forms in that example, I have shown the series of [ordered pitch-class intervals](../interval(Class)/).
 
 Rows that are **transpositionally-related** (as **P11** and **P10** are) have _the same_ series of ordered pitch-class intervals.
 

@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature63.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -13,4 +13,4 @@ For example, the eighth-chord cycle that forms the basis of The Beatles' "Let It
 
 <iframe class="spotify" src="https://embed.spotify.com/?uri=spotify:track:7iN1s7xHE4ifF5povM6A48" frameborder="0" allowtransparency="true"></iframe>
 
-For more blues-based rock examples, see the [blues progression](popRockHarmony-blues/) resource.
+For more blues-based rock examples, see the [blues progression](../popRockHarmony-blues/) resource.

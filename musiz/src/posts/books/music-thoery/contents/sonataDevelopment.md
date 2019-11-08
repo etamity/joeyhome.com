@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature91.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -17,7 +17,7 @@ Development sections tend to explore subordinate keys, and especially those in t
 
 Most development sections do not confirm these keys through authentic cadences, as is typical in the rest of the sonata. More often these keys are confirmed by an HC.
 
-Near its end, a development section quite often reaches a HC in the tonic key to prepare the recapitulation. That HC is often prolonged through a ["standing on the dominant"](externalExpansions/)—a module we will call the "retransition."
+Near its end, a development section quite often reaches a HC in the tonic key to prepare the recapitulation. That HC is often prolonged through a ["standing on the dominant"](../externalExpansions/)—a module we will call the "retransition."
 
 ## Thematic organization
 

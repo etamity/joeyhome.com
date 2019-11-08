@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature42.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -20,4 +20,4 @@ These melodic constraints may make following the *law of the shortest way* and c
 
 In general, if you follow the figures, double the correct chord tone, move the upper voices as little as possible and in contrary or oblique motion to the bass, and take special care when the melody makes the latter impossible, your voice leading will sound smooth and will be fairly easy to perform. Those are the goals of strict keyboard-style voice-leading.
 
-A number of specific situations come up frequently enough that they are worth tucking away as "stock patterns" to be pulled out when appropriate. See the [Keyboard-style voice-leading schemata](KBVLschemata/) resource.
+A number of specific situations come up frequently enough that they are worth tucking away as "stock patterns" to be pulled out when appropriate. See the [Keyboard-style voice-leading schemata](../KBVLschemata/) resource.

@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature83.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -9,7 +9,7 @@ title: Galant schemata – summary
 
 # Openings (presentations)
 
-The following schemata tend to appear at the opening of themes, often as the framework for a presentation phrase in a [sentence](sentence/).
+The following schemata tend to appear at the opening of themes, often as the framework for a presentation phrase in a [sentence](../sentence/).
 
 *Note: though these schemata are presented in major mode, most of these can be converted directly to minor mode.
 

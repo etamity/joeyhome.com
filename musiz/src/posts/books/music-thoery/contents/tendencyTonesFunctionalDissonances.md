@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature105.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -29,7 +29,7 @@ Exceptions to these tendencies include:
 
 Some tendencies, such as the tendency for *le* to progress down, are relatively context-independent. Others are heavily contextualized. The primary contextual tendency for how melodic notes progress is the concept of *functional dissonance*.
 
-Keep in mind from the [Harmonic functions resource](harmonicFunctions/) that chords tend to cluster in one of three functional groups (**T**, **S**, or **D**) When pitches fuse into a chord expressing one of these three functions, the pitches that comprise that have certain tendencies of progression that they may or may not have in other contexts.
+Keep in mind from the [Harmonic functions resource](../harmonicFunctions/) that chords tend to cluster in one of three functional groups (**T**, **S**, or **D**) When pitches fuse into a chord expressing one of these three functions, the pitches that comprise that have certain tendencies of progression that they may or may not have in other contexts.
 
 Following are the scale degrees which act as dissonances for their respective functions:
 

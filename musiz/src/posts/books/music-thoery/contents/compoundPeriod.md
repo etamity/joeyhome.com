@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature18.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -7,7 +7,7 @@ draft: false
 title: Compound period
 ---
 
-The compound period (also called the *16-bar period* because its typical form is 16 bars long) is made of *two themes* instead of *two phrases*. Like an [8-bar period](period/), the two halves of the compound period exhibit [antecedent](themeFunctions/#antecedent) and [consequent](themeFunctions/#consequent) function. To distinguish them, we will call these "large antecedents" and "large consequents."
+The compound period (also called the *16-bar period* because its typical form is 16 bars long) is made of *two themes* instead of *two phrases*. Like an [8-bar period](../period/), the two halves of the compound period exhibit [antecedent](../themeFunctions/#antecedent) and [consequent](../themeFunctions/#consequent) function. To distinguish them, we will call these "large antecedents" and "large consequents."
 
 The thematic types available to the two halves of the compound period must be conducive to the functions of antecedent and consequent. Thus,
 
@@ -40,7 +40,7 @@ The large antecedent is constructed as a sentence whose basic idea is a presenta
 
 ## A Compound Period Comprised of Two Hybrids
 
-If the initiating phrase is composed of an antecedent, rather than a presentation, the 8-bar antecedent phrase will be a hybrid of the ["antecedent + continuation"](hybridThemes/#hybrid-1) variety. 
+If the initiating phrase is composed of an antecedent, rather than a presentation, the 8-bar antecedent phrase will be a hybrid of the ["antecedent + continuation"](../hybridThemes/#hybrid-1) variety. 
 
 
 <img src="/Graphics/ClassicalThemes/16period-hybrid1.svg" />
@@ -58,7 +58,7 @@ In this example the large antecedent begins with a small antecedent, comprising 
 <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A0z0t5ihTRm0XSZSw8iRZ0T" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
 
 
-By contrast, if the initiating phrase is composed of a ["compound basic idea"](hybridThemes/#the-compound-basic-idea), the large antecedent will be a type-3 hybrid: compound basic idea + continuation. This type of compound period is *very similar* to the previous variety. The only distinction is that the initiating phrase will not culminate in a cadence, thus giving the theme's initiation a looser quality.
+By contrast, if the initiating phrase is composed of a ["compound basic idea"](../hybridThemes/#the-compound-basic-idea), the large antecedent will be a type-3 hybrid: compound basic idea + continuation. This type of compound period is *very similar* to the previous variety. The only distinction is that the initiating phrase will not culminate in a cadence, thus giving the theme's initiation a looser quality.
 
 
 <img src="/Graphics/ClassicalThemes/16period-hybrid3.svg" />

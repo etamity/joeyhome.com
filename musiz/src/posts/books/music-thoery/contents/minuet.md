@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature45.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -25,7 +25,7 @@ Expositions always have a *primary themes*. A prototypical *primary theme* is (1
 
 **Secondary Theme**
 
-But if the exposition modulates, the functions of *transition*, and *secondary theme* may appear as well. At minimum a *secondary theme* will close with cadential confirmation (usually a PAC) of the subordinate key. Often, it is looser than the main theme—perhaps [expanded or contracted](internalExpansions/).
+But if the exposition modulates, the functions of *transition*, and *secondary theme* may appear as well. At minimum a *secondary theme* will close with cadential confirmation (usually a PAC) of the subordinate key. Often, it is looser than the main theme—perhaps [expanded or contracted](../internalExpansions/).
 
 **Transition**
 
@@ -35,19 +35,19 @@ Very, very often the transition and the secondary theme are "fused" together (TR
 
 **Closing Section**
 
-Sometimes the secondary theme closes with a PAC and is followed by a [closing section](externalExpansions/).
+Sometimes the secondary theme closes with a PAC and is followed by a [closing section](../externalExpansions/).
 
 ## Contrasting Middle
 
 A contrasting middle section is significantly looser than the exposition. Though it may contain some kind of thematic structure (sentence, primarily), it often does not. Sequences and remote tonal areas are quite typical of the digression section. When doing analysis, your goal should be to identify the melodic/motivic material and understand the tonal structure.
 
-Contrasting middle passages end with a I:HC, creating a harmonic interruption. Commonly, the I:HC is followed by a post-cadential "[standing on the dominant][externalExpansions/]."
+Contrasting middle passages end with a I:HC, creating a harmonic interruption. Commonly, the I:HC is followed by a post-cadential "[standing on the dominant][../externalExpansions/]."
 
 ## Recapitulation
 
 The definitive characteristics of a minuet's *recapitulation* function are (1) the *return of the basic idea* from the A section at its beginning, (2) the *return of the home key* at its beginning, and (3) a final PAC in the home key.
 
-A recapitulation typically copies the thematic and phrase-structural features of the exposition, but altering the secondary theme so as to end in tonic. Commonly, the recapitulation [*expands* the exposition's closing phrase](internalExpansions/).
+A recapitulation typically copies the thematic and phrase-structural features of the exposition, but altering the secondary theme so as to end in tonic. Commonly, the recapitulation [*expands* the exposition's closing phrase](../internalExpansions/).
 
 ## Trio
 

@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature80.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -7,7 +7,7 @@ draft: false
 title: Improvising a sentence with galant schemata
 ---
 
-The [classical sentence](sentence/) lends itself well to *galant* schemata. In fact, we have labeled many of the schemata on our [summary page](schemataSummary/) as "presentation" or "continuation" schemata. Many four-stage schemata tend to appear with the melodic configuration common to the presentation phrase: a basic idea and its varied repetition.
+The [classical sentence](../sentence/) lends itself well to *galant* schemata. In fact, we have labeled many of the schemata on our [summary page](../schemataSummary/) as "presentation" or "continuation" schemata. Many four-stage schemata tend to appear with the melodic configuration common to the presentation phrase: a basic idea and its varied repetition.
 
 Take the opening theme from Haydn's Piano Sonata in G Major, Hob. XVI:27, third movement.
 
@@ -37,7 +37,7 @@ Following is a video that goes into more detail about tricky situations and spec
 
 # Putting it together
 
-The simplest way to build an entire sentence is to begin with one of the four-stage presentation schemata above, and then follow it with either a 5-stage Prinner (which ends on an IAC) or some kind of continuation–cadence combination. Following are a few examples. You can use these as skeletons upon which to base an improvisation, or you can embellish these interactive examples to try out composing a simple sentence. (See the [Using Trinket](trinket/) page for details.)
+The simplest way to build an entire sentence is to begin with one of the four-stage presentation schemata above, and then follow it with either a 5-stage Prinner (which ends on an IAC) or some kind of continuation–cadence combination. Following are a few examples. You can use these as skeletons upon which to base an improvisation, or you can embellish these interactive examples to try out composing a simple sentence. (See the [Using Trinket](../trinket/) page for details.)
 
 ## Presentation – 5-phase Prinner
 

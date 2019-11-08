@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature5.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -91,5 +91,5 @@ In functional bass, use the functional label before the slash and the Roman nume
 
 
 [D7ofV]: /Graphics/D7ofV.png
-[alteredSubdominants]: alteredSubdominants/
+[alteredSubdominants]: ../alteredSubdominants/
 [appliedBassLine]: /Graphics/appliedChordBassLine.png

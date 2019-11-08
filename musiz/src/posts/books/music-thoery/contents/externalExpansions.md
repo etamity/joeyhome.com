@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature23.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -11,7 +11,7 @@ A theme is often preceded or followed by material outside of its typical boundar
 
 ## Prefix ##
 
-An *prefix* is a passage—short or [long](sonataFramingModules/#introduction)—that *precedes* a theme. Short prefixes lack distinct motivic material and/or harmonic progression. While connected to the theme that follows, when removed prefixes do not disturb the logic of the phrase itself. 
+An *prefix* is a passage—short or [long](../sonataFramingModules/#introduction)—that *precedes* a theme. Short prefixes lack distinct motivic material and/or harmonic progression. While connected to the theme that follows, when removed prefixes do not disturb the logic of the phrase itself. 
 
 <figure>	
   <img src="/Graphics/form/sym101.png" />
@@ -37,11 +37,11 @@ Sometimes called *codettas*, *closing sections* follow themes that end with PACs
 
 <iframe src="https://embed.spotify.com/?uri=spotify:track:3ZlIXdp94i6qpfox8Su6Ll" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
 
-The [compound period](compoundPeriod/) here ends with a PAC in m. 16. Following the cadence, a five-measure *closing section* serves to confirm it. Notice that the melody is centered around scale degree 1—a common feature of these passages—and that harmonically the ii–V-I cadential progression that ended the theme (see m. 15 and 16) is simply repeated.
+The [compound period](../compoundPeriod/) here ends with a PAC in m. 16. Following the cadence, a five-measure *closing section* serves to confirm it. Notice that the melody is centered around scale degree 1—a common feature of these passages—and that harmonically the ii–V-I cadential progression that ended the theme (see m. 15 and 16) is simply repeated.
 
 ###Standing on the Dominant
 
-When a *suffix* follows a half cadence, we refer to it as *standing on the dominant*. These passages are often signals for thematic entrances (such as the [second theme](sonataThematicModules/#subordinate-theme-module) of a sonata form movement) or thematic returns (such as the recapitulation in a [small ternary](smallTernary/#three-thematic-functions)). 
+When a *suffix* follows a half cadence, we refer to it as *standing on the dominant*. These passages are often signals for thematic entrances (such as the [second theme](../sonataThematicModules/#subordinate-theme-module) of a sonata form movement) or thematic returns (such as the recapitulation in a [small ternary](../smallTernary/#three-thematic-functions)). 
 
 <figure>	
   <img src="/Graphics/form/sym40.png"/>
@@ -50,4 +50,4 @@ When a *suffix* follows a half cadence, we refer to it as *standing on the domin
 
 <iframe src="https://embed.spotify.com/?uri=spotify:track:04zau0E0VspgiqNvTqCO7u" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
 
-This famous example begins with a one-measure [prefix](externalExpansions/#prefix) followed a [compound sentence](compoundSentence/). The compound sentence ends with a half cadence in m. 16. (Notice the [augmented sixth chord](alteredSubdominants/#augmented-sixth-chords) that precedes it.) The succeeding measures *stand on the dominant,* prolonging the cadence by emphasizing dominant harmony with scale degree 5 embellished melodically.
+This famous example begins with a one-measure [prefix](../externalExpansions/#prefix) followed a [compound sentence](../compoundSentence/). The compound sentence ends with a half cadence in m. 16. (Notice the [augmented sixth chord](../alteredSubdominants/#augmented-sixth-chords) that precedes it.) The succeeding measures *stand on the dominant,* prolonging the cadence by emphasizing dominant harmony with scale degree 5 embellished melodically.

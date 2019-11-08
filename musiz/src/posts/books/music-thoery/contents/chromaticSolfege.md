@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature14.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -35,7 +35,7 @@ Because *ti* and *la* belong to minor, and because *fa* is rarely ever chromatic
 
 ## Exercises to build fluency
 
-Like the [melodic sequentials](melodicSequentials/) for diatonic solfège syllables, some basic exercises can help build fluidity with chromatic syllables. 
+Like the [melodic sequentials](../melodicSequentials/) for diatonic solfège syllables, some basic exercises can help build fluidity with chromatic syllables. 
 
 ### 1) Complete lower neighbors
 

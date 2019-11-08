@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature96.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -15,7 +15,7 @@ The P theme has several functions: (1) establish the home key, (2) present the p
 
 Most often a P theme is harmonically closed, ending with a I:PAC or, less typically, with a I:HC. (In smaller sonatas, P might be a single phrase (antecedent or presentation) that does not end with a cadence.) When a P theme ends with a PAC and is followed by another theme also ending with a PAC, the P module contains a "primary theme group." The themes in a primary theme group are differentiated with subscripts: P1 and P2.
 
-A P theme may exhibit any [standard theme type](classicalThemes/) (sentence, period, hybrid, compound), though sentences are more common. Typically, a P theme is relatively "tight-knit" as compared to other thematic modules, containing a more straightforward presentation of tonic and less phrase deviations.
+A P theme may exhibit any [standard theme type](../classicalThemes/) (sentence, period, hybrid, compound), though sentences are more common. Typically, a P theme is relatively "tight-knit" as compared to other thematic modules, containing a more straightforward presentation of tonic and less phrase deviations.
 
 ## Transition module (TR)
 
@@ -27,7 +27,7 @@ In a sonata, a transition may be "modulating" or "non-modulating." A non-modulat
 
 ### Melodic/motivic characteristics
 
-We will follow Hepokoski & Darcy's practice of locating the beginning of TR at the start of a phrase. In general, once you hear TR function clearly projected, track back to the beginning of that phrase and label it the beginning of TR. Unlike primary themes, transitions are much "looser" thematically. This module of the sonata is often associated with phrase [expansions](internalExpansions/) and compression. More generally, anything that can be associated with [*continuation function*](sentence/) fits transition function, as well: fragmentation, liquidation, acceleration of melodic or harmonic rhythm, etc.
+We will follow Hepokoski & Darcy's practice of locating the beginning of TR at the start of a phrase. In general, once you hear TR function clearly projected, track back to the beginning of that phrase and label it the beginning of TR. Unlike primary themes, transitions are much "looser" thematically. This module of the sonata is often associated with phrase [expansions](../internalExpansions/) and compression. More generally, anything that can be associated with [*continuation function*](../sentence/) fits transition function, as well: fragmentation, liquidation, acceleration of melodic or harmonic rhythm, etc.
 
 Melodically, we classify transitions as (1) _independent_, or (2) _dissolving_.
 

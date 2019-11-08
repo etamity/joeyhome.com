@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature31.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -39,7 +39,7 @@ Note that while scale-degree 2 in the bass can support a **II** chord, **II** is
 
 ## Contrapuntal prolongation – incomplete neighbor chord ##
 
-In [second-species counterpoint](secondSpecies/), variety could come by using a *substitution* in place of a passing tone. This leap of a fourth followed by step in the opposite direction still outlines a third from downbeat to downbeat, but offers a break from too much stepwise motion in the counterpoint.
+In [second-species counterpoint](../secondSpecies/), variety could come by using a *substitution* in place of a passing tone. This leap of a fourth followed by step in the opposite direction still outlines a third from downbeat to downbeat, but offers a break from too much stepwise motion in the counterpoint.
 
 In harmonic writing, the same effect is obtained by an *incomplete neighbor chord*. The bass follows the same incomplete-neighbor pattern as the second-species counterpoint, and the function of the contrapuntal chord is the same as its passing-chord counterpart. Thus instead of a passing motion of **T1 D2 T3**, a substitution pattern in the bass would produce **T1 D4 T3**. (In Roman numerals, that progression would almost invariably be **I V<sup>4/2</sup> I<sup>6</sup>**, as it is in the following example.)
 

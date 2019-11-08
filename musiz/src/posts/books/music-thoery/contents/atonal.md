@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature6.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -117,7 +117,7 @@ Some atonal composers like to make use of sets that invert and/or transpose onto
 
 
 
-[intervals]: Intervals/
+[intervals]: ../Intervals/
 [clock]: /Graphics/postTonal/clockFace.png
 [Cmajor]: /Graphics/postTonal/clockFace-diatonic.png
 [acoustic]: /Graphics/postTonal/acoustic.png

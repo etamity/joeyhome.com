@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature78.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -13,7 +13,7 @@ A scale is a succession of pitches ascending or descending in steps. There are t
 
 The chromatic scale consists entirely of half steps, and uses every pitch on the keyboard within a single octave. Here is the chromatic scale that spans the pitches C4 through C5.
 
-![The chromatic scale][chromaticscale]
+![The chromatic scale][../chromaticscale]
 
 ### The major scale ###
 
@@ -21,7 +21,7 @@ A major scale, a sound with which you are undoubtedly familiar, consists of seve
 
 Here is the D major scale. It is called the "D major scale" because the pitch D is the *tonic* and is heard at both ends of the scale. 
 
-![The major scale][majorscale]
+![The major scale][../majorscale]
 
 ### Scale degrees and solfège ###
 
@@ -53,7 +53,7 @@ When descending, the *melodic minor* scale uses the "natural" *te* and *le*.
 
 <a href="Graphics/sdsf-melodicMinorDesc.png"><img src="/Graphics/sdsf-melodicMinorDesc.png" /></a>
 
-Truth be told, most composers don't really think about three different "forms" of the minor scale. The *harmonic minor* scale simply represents composers' tendency to use *ti* when building harmonies that include the seventh scale degree in the minor mode. Likewise, the *melodic minor* scale is derived from composers' desire to avoid the melodic augmented second interval (more on this in the [intervals](intervals/) section) between *le* and *ti* (and some chose not to avoid this!). In reality, there is only one "version" of the minor scale. Context determines when a composer might use *la* and *ti* when writing music in a minor key. 
+Truth be told, most composers don't really think about three different "forms" of the minor scale. The *harmonic minor* scale simply represents composers' tendency to use *ti* when building harmonies that include the seventh scale degree in the minor mode. Likewise, the *melodic minor* scale is derived from composers' desire to avoid the melodic augmented second interval (more on this in the [intervals](../intervals/) section) between *le* and *ti* (and some chose not to avoid this!). In reality, there is only one "version" of the minor scale. Context determines when a composer might use *la* and *ti* when writing music in a minor key. 
 
 [chromaticscale]: /Graphics/chromaticscale.png
 [majorscale]: /Graphics/majorscale.png

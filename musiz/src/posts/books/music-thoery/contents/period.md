@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature51.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -8,7 +8,7 @@ title: The period
 ---
 
 
-A period is one type of theme, like the [sentence](sentence/), common to the Classical style.
+A period is one type of theme, like the [sentence](../sentence/), common to the Classical style.
 
 The period is generally eight measures long and contains two four-measure phrases, called  *antecedent* and *consequent*.
 
@@ -27,7 +27,7 @@ Unlike the sentence, which contains a basic idea followed by a repetition, the t
 
 <iframe src="https://embed.spotify.com/?uri=spotify:track:1BUSIhYdu0P8LBWXLpAx4g" width="300" height="80" frameborder="0" allowtransparency="true"></iframe><br/>
 
-Note the contrast created between the basic idea and contrasting idea. While the BI ascends, outlining the tonic triad with leaps to each of its members, the CI descends stepwise leading to a weak I:HC. The emphasis on tonic in the melody of the BI is accompanied by a tonic prolongation in the harmony (a variant of the [*Romanesca* schema](schemataOpensAndCloses/)):
+Note the contrast created between the basic idea and contrasting idea. While the BI ascends, outlining the tonic triad with leaps to each of its members, the CI descends stepwise leading to a weak I:HC. The emphasis on tonic in the melody of the BI is accompanied by a tonic prolongation in the harmony (a variant of the [*Romanesca* schema](../schemataOpensAndCloses/)):
 
 > **I V6 VI III**  
 or  

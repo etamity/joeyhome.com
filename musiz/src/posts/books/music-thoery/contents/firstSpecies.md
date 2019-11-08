@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature24.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -74,4 +74,4 @@ Before composing a first-species exercise from scratch, try the following practi
 
 <iframe class="trinket" src="https://trinket.io/embed/music/585810f762" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe><br/>
 
-[CF]: cantusFirmus/
+[CF]: ../cantusFirmus/

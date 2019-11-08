@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature57.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -108,5 +108,5 @@ Spotify URI: [spotify:track:2XkuSbp5say8nZW8g6156Z](spotify:track:2XkuSbp5say8nZ
 *Interestingly in this song, the guitarist doesn't always remember the turnarounds. Notice that at 0:28 the bass and baritone saxophone play the dominant, but the guitarist keeps tonic. At 1:18, the singer yells, "Watch it now! Watch it! Watch it!" as if warning the guitarist not to miss the turnaround in the next bar. He does the same in 2:08. When the guitarist gets the turnaround with the rest of the band, the singer yells, "You got it! You got it!" as if congratulating the guitarist.*
 
 
-[*Back to pop/rock form overview.*](popRockForm/)
+[*Back to pop/rock form overview.*](../popRockForm/)
 

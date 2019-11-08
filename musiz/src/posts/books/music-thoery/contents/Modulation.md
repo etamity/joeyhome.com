@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature48.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -52,5 +52,5 @@ A pivot-chord modulation is notated in a special way. The pivot chord receives i
 <img src="/Graphics/harmony/pivot.png" alt="Pivot chord bracket notation: VII of D minor becomes V of F major." style="width:75%" />
 
 
-[Applied]: appliedChords/
+[Applied]: ../appliedChords/
 [mod]: /Graphics/harmony/modEx.png

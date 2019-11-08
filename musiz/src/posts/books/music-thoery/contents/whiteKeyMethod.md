@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature123.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -7,7 +7,7 @@ draft: false
 title: Calculating Intervals&#58; The White-Key Method
 ---
 
-Ultimately, [intervals](intervals/) need to be committed to memory, both aurally and visually. There are, however, a few tricks to learning this quickly. One such trick is the so-called *white-key method*. 
+Ultimately, [intervals](../intervals/) need to be committed to memory, both aurally and visually. There are, however, a few tricks to learning this quickly. One such trick is the so-called *white-key method*. 
 
 ### White-Key Method
 

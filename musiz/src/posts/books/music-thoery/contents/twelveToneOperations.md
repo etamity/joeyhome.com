@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature119.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -7,7 +7,7 @@ draft: false
 title: Twelve-Tone Music — Operations
 ---
 
-Like pitch-class sets, twelve-tone rows can be transposed (*Tn*),  inverted (*I*), or transposed and inverted (*TnI*). Like [transposing a pitch-class set](transposition/), transposing a row is accomplished by *adding* a constant value to all of the pitch-classes of the row *while maintaining the order*. In the example below, I have transposed **P11** by *T11* by adding 11 to each of the pitch classes of **P11**. The new row is called **P10** because it begins with pitch class 10. 
+Like pitch-class sets, twelve-tone rows can be transposed (*Tn*),  inverted (*I*), or transposed and inverted (*TnI*). Like [transposing a pitch-class set](../transposition/), transposing a row is accomplished by *adding* a constant value to all of the pitch-classes of the row *while maintaining the order*. In the example below, I have transposed **P11** by *T11* by adding 11 to each of the pitch classes of **P11**. The new row is called **P10** because it begins with pitch class 10. 
 
 Inversion occurs when we *subtract* each pitch class of the row from a constant value. Again referring to the example below, when I do *T10I* of **P11** is accomplished by subtracting every pitch class of **P11** from 10.
 

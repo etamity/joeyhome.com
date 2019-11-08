@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature15.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -9,19 +9,19 @@ title: Classical theme types
 
 The following diagrams outline the key internal characteristics and functional role of the various theme types presented in William Caplin’s [*Classical Form*.](https://openlibrary.org/works/OL2689355W/Classical_form) Follow the links below for further explanation and examples.
 
-See also [Classical theme functions](themeFunctions/).
+See also [Classical theme functions](../themeFunctions/).
 
 Sentence
 --------
 
-For details, click [here](sentence/).
+For details, click [here](../sentence/).
 
 <a href="sentence/"><img src="/Graphics/ClassicalThemes/sentence.svg" /></a>
 
 Period
 ------
 
-For details, click [here](period/).
+For details, click [here](../period/).
 
 <img src="/Graphics/ClassicalThemes/period.svg" />
 
@@ -29,7 +29,7 @@ For details, click [here](period/).
 Hybrid themes
 -------------
 
-For further details, click [here](hybridThemes/).
+For further details, click [here](../hybridThemes/).
 
 <img src="/Graphics/ClassicalThemes/hybrid1.svg" />
 <img src="/Graphics/ClassicalThemes/hybrid2.svg" />
@@ -40,7 +40,7 @@ For further details, click [here](hybridThemes/).
 Compound themes
 ---------------
 
-For further details, see [Compound periods](compoundPeriod) and [Compound sentences](compoundSentence).
+For further details, see [Compound periods](../compoundPeriod) and [Compound sentences](../compoundSentence).
 
 <img src="/Graphics/ClassicalThemes/16period-sent.svg"  />
 <img src="/Graphics/ClassicalThemes/16period-hybrid1.svg"  />
@@ -50,7 +50,7 @@ For further details, see [Compound periods](compoundPeriod) and [Compound senten
 Small Ternary
 ---------------
 
-For further details, click [here](smallTernary/).
+For further details, click [here](../smallTernary/).
 
 <img src="/Graphics/ClassicalThemes/smallTernary.svg" />
 
@@ -58,7 +58,7 @@ For further details, click [here](smallTernary/).
 Small Binary
 ---------------
 
-For further details, click [here](smallBinary/).
+For further details, click [here](../smallBinary/).
 
 <img src="/Graphics/ClassicalThemes/smallBinary.svg"  />
 

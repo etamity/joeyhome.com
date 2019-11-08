@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature32.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -7,11 +7,11 @@ draft: false
 title: Hybrid themes
 ---
 
-Hybrid themes mixes the [functional features](themeFunctions/) of [sentences](sentence/) and [periods](period/). William Caplin has identified four primary types: 
+Hybrid themes mixes the [functional features](../themeFunctions/) of [sentences](../sentence/) and [periods](../period/). William Caplin has identified four primary types: 
 
 ## Hybrid 1 ##
 
-Hybrid 1 combines an [antecedent phrase](themeFunctions/#antecedent) with a [continuation phrase](themeFunctions/#continuation).
+Hybrid 1 combines an [antecedent phrase](../themeFunctions/#antecedent) with a [continuation phrase](../themeFunctions/#continuation).
 
 <img src="/Graphics/ClassicalThemes/hybrid1.svg" />
 
@@ -43,18 +43,18 @@ Here, the four measures subsequent to the antecedent support a single cadential 
 
 > **I6 ii6/5 V I**  
 
-Notice that this four-measure phrase does not display any markers of [continuation function](themeFunctions/#continuation). 
+Notice that this four-measure phrase does not display any markers of [continuation function](../themeFunctions/#continuation). 
 
 
 
 ##The Compound Basic Idea
 
-Just as we sometimes find composers combining different features of the two primary thematic types, we also often find combinations of different types of phrase. The "compound basic idea," or CBI, combines the melodic characteristics of the [antecedent function](themeFunctions/#antecedent) with the harmonic characteristics of the [presentation](themeFunctions/#presentation) function. Like an antecedent, it presents a basic idea followed by a contrasting one. But like a presentation, the compound basic idea simply prolongs tonic, without ending in a cadence. 
+Just as we sometimes find composers combining different features of the two primary thematic types, we also often find combinations of different types of phrase. The "compound basic idea," or CBI, combines the melodic characteristics of the [antecedent function](../themeFunctions/#antecedent) with the harmonic characteristics of the [presentation](../themeFunctions/#presentation) function. Like an antecedent, it presents a basic idea followed by a contrasting one. But like a presentation, the compound basic idea simply prolongs tonic, without ending in a cadence. 
 
 
 ## Hybrid 3 ##
 
-The third hybrid type strongly resembles the [first hybrid](hybridThemes/#hybrid-1). Rather than beginning with an initiating antecedent, however, its first phrase is a [CBI](hybridThemes/#the-compound-basic-idea). Following the CBI, Hybrid 3 concludes with a continuation that ends with a cadence.
+The third hybrid type strongly resembles the [first hybrid](../hybridThemes/#hybrid-1). Rather than beginning with an initiating antecedent, however, its first phrase is a [CBI](../hybridThemes/#the-compound-basic-idea). Following the CBI, Hybrid 3 concludes with a continuation that ends with a cadence.
 
 <img src="/Graphics/ClassicalThemes/hybrid3.svg" />
 
@@ -65,14 +65,14 @@ The third hybrid type strongly resembles the [first hybrid](hybridThemes/#hybrid
 
 <iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A2MeFF0iyjMts1juRwgDXAT" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
 
-In this example, from Beethoven's Violin Sonata, Op. 30, the melodic structure of the initiating phrase contains two contrasting ideas, each of which begins with the same dotted figure. However, unlike a typical antecedent, the phrase only prolongs tonic as the V6 on the last beat of m. 3 only decorates the tonic through a lower neighbor motion rather than creating cadential articulation. Thus, the phrase is best understood as a ["compound basic idea."](hybridThemes/#the-compound-basic-idea)
+In this example, from Beethoven's Violin Sonata, Op. 30, the melodic structure of the initiating phrase contains two contrasting ideas, each of which begins with the same dotted figure. However, unlike a typical antecedent, the phrase only prolongs tonic as the V6 on the last beat of m. 3 only decorates the tonic through a lower neighbor motion rather than creating cadential articulation. Thus, the phrase is best understood as a ["compound basic idea."](../hybridThemes/#the-compound-basic-idea)
 
 The concluding phrase is a typical continuation expressed through fragmentation, melodic sequence, and increased harmonic rhythm.
 
 
 ## Hybrid 4 ##
 
-Hybrid 4 resembles the period, with the exception that the first phrase is comprised of a "compound basic idea" rather than an antecedent. Following the [CBI](hybridThemes/#the-compound-basic-idea), the concluding phrase expresses the function of a consequent, typically altering the return of the contrasting idea so that the theme ends with a strong cadence.
+Hybrid 4 resembles the period, with the exception that the first phrase is comprised of a "compound basic idea" rather than an antecedent. Following the [CBI](../hybridThemes/#the-compound-basic-idea), the concluding phrase expresses the function of a consequent, typically altering the return of the contrasting idea so that the theme ends with a strong cadence.
 
 <img src="/Graphics/ClassicalThemes/hybrid4.svg" />
 

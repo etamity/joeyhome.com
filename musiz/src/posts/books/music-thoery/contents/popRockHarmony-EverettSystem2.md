@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature61.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -15,7 +15,7 @@ The most common modes used in this "tonal system" of pop/rock music are:
 - **Mixolydian:** *do re mi fa sol la te do*  
 - **Aeolian:** *do re me fa sol le te do*
 
-*(Lydian is also possible, but rare. Locrian is rarer still, given its lowered fifth scale-degree. Phrygian is common, but typically as part of Everett's ["System 5."](popRockHarmony-EverettSystem5/))*
+*(Lydian is also possible, but rare. Locrian is rarer still, given its lowered fifth scale-degree. Phrygian is common, but typically as part of Everett's ["System 5."](../popRockHarmony-EverettSystem5/))*
 
 The characteristic harmonies in modal pop/rock include a heavy emphasis on **flat-VII** as the primary "dominant" chord (rather than **V** or even **v**), as these four common modes all contain *te*. **Flat-VI** is also common in Aeolian, and **Flat-III** in Dorian and Aeolian.
 

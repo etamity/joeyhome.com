@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature108.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -7,7 +7,7 @@ draft: false
 title: Thematic Function
 ---
 
-This page is a quick-reference. For examples of these functions in musical contexts, see the resource on [Classical theme types](classicalThemes/).
+This page is a quick-reference. For examples of these functions in musical contexts, see the resource on [Classical theme types](../classicalThemes/).
 
 # Initiating Functions
 
@@ -39,7 +39,7 @@ Following are important terms/concepts associated with continuation function. No
 
 *Cadential function* comes at the end of a theme or phrase. It typically involves a *cadential harmonic progression* and a *conventional, descending melodic pattern*.
 
-A classical cadential progression *begins with the last chord of tonic prolongation* and *ends with a cadential arrival*. The [three typical types of cadential arrival](cadenceTypes/) in Classical music are the perfect authentic cadence (PAC), the imperfect authentic cadence (IAC), and the half cadence (HC). 
+A classical cadential progression *begins with the last chord of tonic prolongation* and *ends with a cadential arrival*. The [three typical types of cadential arrival](../cadenceTypes/) in Classical music are the perfect authentic cadence (PAC), the imperfect authentic cadence (IAC), and the half cadence (HC). 
 
 A half-cadential progression will begin with the final **T** chord, progress (optionally) through **S**, and arrive on a cadential **D** chord (*always* **D5**: **V** or **V<sup>7</sup>**):
 

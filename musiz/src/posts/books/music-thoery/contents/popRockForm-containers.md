@@ -1,5 +1,5 @@
 ---
-featuredImage: openBooksOnPath.jpg
+featuredImage: ../../../../assets/open-music/feature54.jpeg
 date: 2016-12-12
 tags: ['music', 'theory', 'book']
 author: etamity
@@ -16,7 +16,7 @@ A phrase is a musical unit that typically lasts for four bars and includes one l
 
 ### Module
 
-In pop/rock music, a *module* typically spans between 8 and 24 bars and includes 2–4 phrases. (Some auxiliary modules may contain a single phrase.) A module presents a single [formal function](popRockForm-functions) (such as A, B, C, V, P, etc.) and presents a complete 2-, 3-, or 4-part pattern. Modules typically set a stanza of lyrics.
+In pop/rock music, a *module* typically spans between 8 and 24 bars and includes 2–4 phrases. (Some auxiliary modules may contain a single phrase.) A module presents a single [formal function](../popRockForm-functions) (such as A, B, C, V, P, etc.) and presents a complete 2-, 3-, or 4-part pattern. Modules typically set a stanza of lyrics.
 
 Module boundaries are usually made apparent by poetic structure (end of a group of rhyming lines—couplet or stanza) or surface features of the song (clear rhythmic, harmonic, and melodic arrival; change in instrumentation or volume; return to beginning of a previously heard module; etc.).
 
@@ -40,7 +40,7 @@ Spotify URI: [spotify:track:3dh2LlmeMqKJbzn2WUgt3d](spotify:track:3dh2LlmeMqKJbz
 
 ### Primary module
 
-"A module that contains a song’s principal materials" (Summach, p. 322), such as the title text or the most memorable or climactic music. Primary modules exhibit strophe function (A) or chorus function (C). See [Formal functions](popRockForm-functions) for more details on these specific functions.
+"A module that contains a song’s principal materials" (Summach, p. 322), such as the title text or the most memorable or climactic music. Primary modules exhibit strophe function (A) or chorus function (C). See [Formal functions](../popRockForm-functions) for more details on these specific functions.
 
 ### Secondary module
 
