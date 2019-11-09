@@ -23,7 +23,7 @@ A Meyer is archetypal”opening” schema in the galant style that prolongs the 
 
 When each sonority receives one “measure” of music, it is commonly found in the presentation or antecedent part of an opening theme. If those stages occur at the rate of two per measure, the Meyer may form a basic idea that would be followed by a closing gesture, such as the “Prinner” described below.
 
-A fairly exhaustive list of opening schemata can be found on the [Galant schemata – summary](schemataSummary) page. Many of them follow the same general pattern as the Meyer. For example, “The Pastorella,” “The Jupiter,” and “The Aprile,” all prolong tonic by moving away for the two middle stages before a tonic return. Like the Meyer, they are ideal prototypes for the first phrase of an opening theme. As with the Meyer, the bass and harmonic structure are less fixed than is the melody. The two central stages may articulate dominant harmony in all three schemas, and the second stage is also commonly accompanied by predominant harmony.
+A fairly exhaustive list of opening schemata can be found on the [Galant schemata – summary](../schemataSummary) page. Many of them follow the same general pattern as the Meyer. For example, “The Pastorella,” “The Jupiter,” and “The Aprile,” all prolong tonic by moving away for the two middle stages before a tonic return. Like the Meyer, they are ideal prototypes for the first phrase of an opening theme. As with the Meyer, the bass and harmonic structure are less fixed than is the melody. The two central stages may articulate dominant harmony in all three schemas, and the second stage is also commonly accompanied by predominant harmony.
 
 
 ##Closing gestures##
@@ -40,7 +40,7 @@ Some Prinner exemplars insert a sol bass note before the last chord, resulting i
 
 To complete a modulation to the dominant, the Prinner schema can be transposed up a fifth. When this occurs, the first stage of the Prinner (the 5/3 chord on fa) is the tonic of the home key and the subdominant of the dominant key, making a particularly smooth transition. Modulating Prinners are used in sentence or hybrid themes either to modulate to the dominant key or to effect a strong half cadence. They also commonly appear at the beginning of the Transition (TR) zone in a sonata movement, effecting the same move to the dominant.
 
-For more continuation/cadential schemata, see the [Galant schemata – summary](schemataSummary) page.
+For more continuation/cadential schemata, see the [Galant schemata – summary](../schemataSummary) page.
 
 # References #
 

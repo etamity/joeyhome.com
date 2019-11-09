@@ -18,7 +18,7 @@ A three-note chord whose pitch classes can be arranged as thirds is called a *tr
 
 To quickly determine whether a three-note chord is a triad, arrange the three notes on the "circle of thirds" below. The pitch classes of a triad will always sit next to each other.
 
-![A triad (A, C, E) on the diatonic circle of thirds.][circleOfThirds-triad]
+![A triad (A, C, E) on the diatonic circle of thirds.][../circleOfThirds-triad]
 
 ## Identifying and labeling triads ##
 
@@ -28,7 +28,7 @@ Triads are identified according to their *root* and *quality*.
 
 To find a triad’s root, arrange the pitch classes on a circle of thirds (mentally or on paper). The root is the *lowest* in the three-pitch-class clump. Expressed another way, if the circle *ascends* by thirds as it moves clockwise, the root is the “earliest” note (thinking like a literal clock), and the other pitch classes come “later.”
 
-![A triad (A, C, E) on the diatonic circle of thirds.][circleOfThirds-triadRTF]
+![A triad (A, C, E) on the diatonic circle of thirds.][../circleOfThirds-triadRTF]
 
 Once you know the root, you can identify the remaining notes as the *third* of the chord (a third above the root) and the *fifth* of the chord (a fifth above the root).
 
@@ -41,7 +41,7 @@ To find a triad’s quality, identify the interval between the root and the othe
 -   diminished triad: m3 and d5 above the root (as in *ti–re–fa*)
 -   augmented triad: M3 and A5 above the root (as in *me–sol–ti*)
 
-![Four qualities of triads.][triads]
+![Four qualities of triads.][../triads]
 
 ### Lead-sheet symbols ###
 
@@ -58,7 +58,7 @@ Finally, if a pitch class other than the chord root is the lowest note in the ch
 
 A C-major triad’s lead-sheet symbol is simply **C**. A C-minor triad is **Cm**. A D-sharp-diminished triad with an F-sharp in the bass is **D\#dim/F\#**. And so on.
 
-![Four qualities of triads with lead-sheet symbols.][triads-LS]
+![Four qualities of triads with lead-sheet symbols.][../triads-LS]
 
 ## Roman numerals ##
 
@@ -107,7 +107,7 @@ A four-note chord whose pitch classes can be arranged as thirds is called a *sev
 
 Like with a triad, the pitch classes belonging to a seventh chord occupy adjacent positions (a four-pitch-class clump) on the circle of thirds. The four members of a seventh chord are the *root*, *third*, *fifth*, and *seventh*.
 
-![A seventh chord (A, C, E, G) on the diatonic circle of thirds.][circleOfThirds-seventhRTFS]
+![A seventh chord (A, C, E, G) on the diatonic circle of thirds.][../circleOfThirds-seventhRTFS]
 
 There are five qualities of seventh chords that appear in diatonic music: major seventh, dominant seventh, minor seventh, diminished seventh (also called fully-diminished), and half-diminished seventh. They are comprised of the following intervals above their roots:
 

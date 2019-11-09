@@ -93,7 +93,7 @@ Spotify URI: [spotify:track:5JGEAz15LkPoOtFHttDtVs](spotify:track:5JGEAz15LkPoOt
 The following sections go into greater detail about these large-scale structures and the component structures that make them up. Terms, concepts, definitions, and notational guidelines in OMT are taken either from common convention; the published or unpublished work of [Jason Summach](http://gradworks.umi.com/35/25/3525244.html), John Covach, Walter Everett, Mark Spicer, or Daniel Harrison; or some combination thereof.
 
 
-- [Terminology and basic concepts](popRockForm-terms)  
-- [Formal containers and module structures](popRockForm-containers)  
-- [Formal functions](popRockForm-functions)  
-- [Analytical notation](popRockForm-notation)  
+- [Terminology and basic concepts](../popRockForm-terms)  
+- [Formal containers and module structures](../popRockForm-containers)  
+- [Formal functions](../popRockForm-functions)  
+- [Analytical notation](../popRockForm-notation)  

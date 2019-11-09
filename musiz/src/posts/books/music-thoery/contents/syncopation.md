@@ -20,10 +20,10 @@ This process can occur on any metrical level. If the duration of the series of "
 As a convention, when we take a series of notes that each have a duration of one beat and shift them early by half of a beat, we will call that *beat-level syncopation*. When we take a series of notes that each have a duration of one division and shift them early by a subdivision, we will call that *division-level syncopation*.
 
 *Beat-level syncopation.*  
-[![][quarterToEighth]][quarterToEighth]
+[![][quarterToEighth]][../quarterToEighth]
 
 *Division-level syncopation.*  
-[![][eighthToSixteenth]][eighthToSixteenth]
+[![][eighthToSixteenth]][../eighthToSixteenth]
 
 (Note the use of ties to make each beat clear. Always do this in order to make it easy to read.)
 

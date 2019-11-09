@@ -88,7 +88,7 @@ In general, if there is a shortcut available, use it. The shortcuts are more sta
 Keep in mind that some chords have abbreviated figures. For example, it is common for the leading tone to be the third above the bass in a 5/3 chord. In such a situation, a bass note that otherwise would have no figure needs a sharp or a natural for its thoroughbass figure.
 
 
-[triadsSevenths]: triads/
+[triadsSevenths]: ../triads/
 [full]: /Graphics/harmony/figuresFull.png
 [abbrev]: /Graphics/harmony/figuresAbbrev.png
 [chrom]: /Graphics/harmony/figuresChrom.png

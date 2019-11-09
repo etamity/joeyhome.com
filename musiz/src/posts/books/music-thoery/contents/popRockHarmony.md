@@ -28,49 +28,49 @@ Following is a chart of bass scale degrees and the roots/Roman numerals most typ
 
 ## Harmonic functions in minor
 
-Harmonic functions in minor keys of pop/rock songs, particularly in the last couple decades, tend to deviate from classical syntax in different ways than major-key songs. See the [Harmonic functions in minor](popRockHarmony-minor/) resource for more details about this.
+Harmonic functions in minor keys of pop/rock songs, particularly in the last couple decades, tend to deviate from classical syntax in different ways than major-key songs. See the [Harmonic functions in minor](../popRockHarmony-minor/) resource for more details about this.
 
 ## Schemata
 
 There are a number of common stock chord progressions that recur in many pop/rock songs. Typically, these stock progressions, or schemata, will occur in cyclical patterns; that is, the same progression will repeat multiple times in a row. This is particularly common in choruses of verse-chorus songs, but also happens in verses, strophes, and bridges. This is helpful for identifying harmonies by ear, since in addition to listening for bass scale degrees and considering whether the harmonies are chords of the fifth (5/3 or 7) or chords of the sixth (typically 6/3 or 6/5), we can listen for common patterns that we’ve heard in other songs. Following are a number of common schemata for pop/rock harmonic progressions.
 
-[The “50s doo-wop” progression](popRockHarmony-dooWop/)
+[The “50s doo-wop” progression](../popRockHarmony-dooWop/)
 
 **&#124;&#124;: I – VI – IV – V :&#124;&#124;**  
 or  
 **&#124;&#124;: I – VI – II – V :&#124;&#124;**
 
-[The "Singer/Songwriter" progression](popRockHarmony-sscp/) 
+[The "Singer/Songwriter" progression](../popRockHarmony-sscp/) 
 
 **&#124;&#124;: VI – IV – I – V :&#124;&#124;** (in major)  
 **&#124;&#124;: I – VI – III – VII :&#124;&#124;** (in minor)  
 **&#124;&#124;: I – V – VI – IV :&#124;&#124;** ("With or Without You" variant)  
 **&#124;&#124;: IV – I – V – VI :&#124;&#124;** ("deceptive" variant)  
 
-[The "Puff" progression](popRockHarmony-puff/) 
+[The "Puff" progression](../popRockHarmony-puff/) 
 
 **I – III – IV . . .** (to begin a phrase)
 
-[The blues progression](popRockHarmony-blues/)
+[The blues progression](../popRockHarmony-blues/)
 
 **&#124;&#124;: I - - - &#124; IV - I - &#124; V IV I - :&#124;&#124;** (12-bar blues)   
 **&#124;&#124;: I - - - &#124; I - - - &#124; IV - I - &#124; V IV I -:&#124;&#124;** (16-bar blues)
 
-[The Pachelbel progression](popRockHarmony-pachelbel/)
+[The Pachelbel progression](../popRockHarmony-pachelbel/)
 
 **&#124;&#124;: I – V – VI – III – IV – I – IV – V :&#124;&#124;**  
 **&#124;&#124;: I – V<sup>6</sup> – VI – III<sup>6</sup> – IV – I<sup>6</sup> – IV – V :&#124;&#124;** (stepwise bass version)  
 **I – V – VI – III . . .** (to begin a phrase; "truncated" version)
 
-[The lament progression](popRockHarmony-lament/)
+[The lament progression](../popRockHarmony-lament/)
 
 **&#124;&#124;: I – VII – VI – V :&#124;&#124;**
 
-[The circle-of-fifths progression (in minor)](popRockHarmony-fifths/)
+[The circle-of-fifths progression (in minor)](../popRockHarmony-fifths/)
 
 **&#124;&#124;: I – IV – VII – III :&#124;&#124;**
 
-[Plagal progressions](popRockHarmony-plagal/)
+[Plagal progressions](../popRockHarmony-plagal/)
 
 **&#124;&#124;: I - IV :&#124;&#124;**  
 **&#124;&#124;: I - bVII - IV - I :&#124;&#124;**  
@@ -82,12 +82,12 @@ Walter Everett has posited six *tonal systems* to which most pop/rock songs belo
 
 System 1: Pop/rock tonality that strongly resembles common-practice classical tonality (major and minor keys, with parallel-key borrowing).
 
-[System 2: Pop/rock tonality that draws on diatonic modes](popRockHarmony-EverettSystem2/) (such as Dorian, Mixolydian, Aeolian).
+[System 2: Pop/rock tonality that draws on diatonic modes](../popRockHarmony-EverettSystem2/) (such as Dorian, Mixolydian, Aeolian).
 
-[System 3: Pop/rock tonality that strongly resembles common-practice classical tonality, but which borrows from diatonic modes.](popRockHarmony-EverettSystem3/)
+[System 3: Pop/rock tonality that strongly resembles common-practice classical tonality, but which borrows from diatonic modes.](../popRockHarmony-EverettSystem3/)
 
-[System 4: Blues-based pop/rock tonality.](popRockHarmony-EverettSystem4/)
+[System 4: Blues-based pop/rock tonality.](../popRockHarmony-EverettSystem4/)
 
-[System 5: Minor-pentatonic-based pop/rock tonality.](popRockHarmony-EverettSystem5/)
+[System 5: Minor-pentatonic-based pop/rock tonality.](../popRockHarmony-EverettSystem5/)
 
 System 6: Chromatically inflected minor-pentatonic-based pop/rock tonality.

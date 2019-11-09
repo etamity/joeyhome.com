@@ -25,4 +25,4 @@ Be sure to sing the lowest and highest notes out loud before you begin the melod
 
 Finally, with a comfortable key and tempo, and at least a rough handle on the toughest licks, sing the melody straight through, while conducting the meter, without stopping.
 
-[meter]: meter/
+[meter]: ../meter/

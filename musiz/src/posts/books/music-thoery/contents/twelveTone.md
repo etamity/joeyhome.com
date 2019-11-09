@@ -61,4 +61,4 @@ To get the interval succession of the retrograde forms, invert the retrograde in
 Take care in determining these first, and it will be easy to classify row forms as you go through a piece. Its interval progression will tell you the type, and the pitch class of the first or last note will give you the subscript. That subscript will tell you the transposition relationship between it and the other row forms of the same type.
 
 
-[atonal]: atonal/
+[atonal]: ../atonal/

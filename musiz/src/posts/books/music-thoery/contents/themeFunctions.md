@@ -54,11 +54,9 @@ An authentic-cadential progression will begin with the final **T** chord, progre
 *Consequent function* resembles *antecedent function* in that it involves the presentation of a basic idea followed by a contrasting one. Unlike the *antecedent function*, however, *consequent function* brings completion to a thematic unit. Therefore, it ends with a strong cadence, typically a PAC.  
 
 
-<!--
-
 ## General notes ##
 
 Just as there is exactly one progression through **T (S) D T** for every cadence in classical music, there is exactly one progression through **presentation – continuation – cadential** functions for every cadence in classical music.
 
-None of these functions are optional; all must be present in a normative formal progression.-->
+None of these functions are optional; all must be present in a normative formal progression.
 
