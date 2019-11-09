@@ -13,6 +13,7 @@ import Layout from '../components/Layout';
 import Icons from '../components/Icons';
 import RelatedPosts from '../components/RelatedPosts';
 import logo from '../assets/logo.png';
+import AdsBannerPosition from '../components/AdsBannerPosition';
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 class PostTemplate extends React.Component {
@@ -184,8 +185,9 @@ class PostTemplate extends React.Component {
         <main id='site-main' className='site-main outer'>
           <div className='inner'>
             <article
-              className={`post-full post ${featuredImage || 'no-image'}`}
+              className={`post-full post`}
             >
+              {AdsBannerPosition.BlogTop && AdsBannerPosition.BlogTop}
               <header className='post-full-header'>
                 <div className='post-full-meta'>
                   <time
@@ -199,8 +201,7 @@ class PostTemplate extends React.Component {
                     return (
                       <React.Fragment key={tag}>
                         <Link to={`/tag/${tag}`} rel=''>
-                          {' '}
-                          {tag}{' '}
+                          {tag}
                         </Link>
                         {index !== tags.length - 1 && <span> ,&nbsp;</span>}
                       </React.Fragment>
@@ -243,6 +244,7 @@ class PostTemplate extends React.Component {
                   />
                 </section>
               )}
+              {AdsBannerPosition.BlogButtom && AdsBannerPosition.BlogButtom}
             </article>
           </div>
         </main>

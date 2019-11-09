@@ -15,7 +15,7 @@ module.exports = {
     },
     config: {
       postsPerPage: 10,
-      disqus: 'etamity',
+      // disqus: 'etamity',
       scripts: []
     },
   },
